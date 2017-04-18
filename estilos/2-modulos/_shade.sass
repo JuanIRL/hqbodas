@@ -1,0 +1,14 @@
+
+.shade
+  position: absolute
+  left: 0
+  width: 100%
+  height: 100%
+  background-color:  $overlay
+  transition:  opacity 1s ease-in-out
+  &.shade-extras
+    top: $header-height-des
+    position: fixed
+    @media(max-width: 640px)
+      top: 0
+      padding-top:  50px

@@ -1,0 +1,36 @@
+section.vosotros
+  width: 100%
+  padding: $header-height-des 0 200px 0
+  background:
+    color: white
+    image: url('../recursos/img/logo/fondo hq 7.png')
+    size: 80%
+    position: center center
+    repeat: repeat
+  color: inherit
+  .formulario
+    width: 1200px
+    text-align: center
+    .input
+      position: relative
+      margin: 15px 10px
+    .input-50
+      display: inline-block
+      width: calc(50% - 24px)
+    @media(max-width: 1330px)
+      width: 800px
+    @media(max-width: 830px)
+      width: 600px
+      .input
+        margin: 10px 5px
+      .input-50
+        width: calc(50% - 14px)
+    @media(max-width: 640px)
+      width: 300px
+      .input
+        width: 100%
+        margin: 10px 0
+      @media(max-width: 640px)
+        display: block
+        width: 95%
+        margin: auto

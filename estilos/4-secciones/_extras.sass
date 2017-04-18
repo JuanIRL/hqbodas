@@ -1,0 +1,306 @@
+section.extras
+  position: relative
+  top: 0
+  width: 100%
+  height: 100%
+  padding: $header-height-des 0 190px 0
+  text-align: center
+  background:
+    //color:$colorlogo2-trans
+    image: url('../recursos/img/logo/fondo hq 7.png')
+    size: 80%
+    position: center center
+    repeat: repeat
+  h1
+    font-size: 2em
+    font-weight: bold
+  p
+    font-size: 1.3em
+  .extras-wrapper
+    width: $ancho-total-extras-3
+    //position: absolute
+    //left: 50%
+    //-webkit-transform: translateX(-50%)
+    //-moz-transform: translateX(-50%)
+    //transform: translateX(-50%)
+    .item
+      height: $lado-item-extras
+      min-width: $lado-item-extras
+      margin: 20px 20px
+      box-shadow: $sombra1
+      border-radius: 100%
+      background:
+        color: white
+      cursor: pointer
+      position: relative
+      -webkit-transition: transform 0.6s ease-in-out
+      -moz-transition: transform 0.6s ease-in-out
+      transition: transform 0.6s ease-in-out
+      //FOTOMATON-------------------------------------------------------------------------------------------FOTOMATON
+      &.fotomaton
+        background:
+          image: url('../recursos/img/botones/fotomaton.png')
+          size: contain
+          position: center center
+          repeat: no-repeat
+        &.abierto
+          .extras-content
+            border-radius: 20px 20px 20px 3px
+            transform-origin: left bottom
+            bottom: 50%
+            left: $offset-extras
+            transition: $burbuja-extras
+        @media(max-width: 1470px)
+          &.abierto
+            .extras-content
+              border-radius: 20px 20px 3px 20px
+              transform-origin: right bottom
+              bottom: 50%
+              top: auto
+              right: $offset-extras
+              left: auto
+        @media(max-width: $ancho-total-extras-3)
+          &.abierto
+            .extras-content
+              border-radius: 20px 20px 20px 3px
+              transform-origin: left bottom
+              bottom: 50%
+              top: auto
+              right: auto
+              left: $offset-extras-estrecho
+        @media(max-width: $ancho-total-extras-2)
+          &.abierto
+            .extras-content
+              border-radius: 3px 3px 3px 3px
+              left: -65px
+              top: $offset-extras
+              transform-origin: top
+              transition: transform 0.6s ease-in-out
+          &.abierto ~ .item
+            transform: translateY(190px)
+      //PREBODA------------------------------------------------------------------------------PREBODA
+      &.preboda
+        background:
+          image: url('../recursos/img/botones/preboda.png')
+          size: contain
+          position: center center
+          repeat: no-repeat
+        &.abierto
+          .extras-content
+            border-radius: 20px 3px 20px 20px
+            transform-origin: right top
+            top: 50%
+            right: $offset-extras
+            transition: $burbuja-extras
+        @media(max-width: $ancho-total-extras-3)
+          &.abierto
+            .extras-content
+              border-radius: 3px 20px 20px 20px
+              transform-origin: left top
+              top: 50%
+              bottom: auto
+              left: $offset-extras-estrecho
+              right: auto
+        @media(max-width: $ancho-total-extras-2)
+          &.abierto
+            .extras-content
+              border-radius: 3px 3px 3px 3px
+              left: -65px
+              top: $offset-extras
+              transform-origin: top
+              transition: transform 0.6s ease-in-out
+          &.abierto ~ .item
+            transform: translateY(190px)
+      //VIDEOCLIP----------------------------------------------------------------VIDEOCLIP
+      &.videoclip
+        background:
+          image: url('../recursos/img/botones/videoclip.png')
+          size: contain
+          position:  center center
+          repeat: no-repeat
+        &.abierto
+          .extras-content
+            border-radius: 3px 20px 20px 20px
+            transform-origin: left top
+            top: 50%
+            left: $offset-extras
+            transition:  $burbuja-extras
+        @media(max-width: 1470px)
+          &.abierto
+            .extras-content
+              border-radius: 20px 3px 20px 20px
+              transform-origin: right top
+              top: 50%
+              bottom: auto
+              right: $offset-extras
+              left: auto
+        @media(max-width: $ancho-total-extras-3)
+          &.abierto
+            .extras-content
+              border-radius: 20px 3px 20px 20px
+              transform-origin: right top
+              top: 50%
+              bottom: auto
+              left: auto
+              right: $offset-extras-estrecho
+        @media(max-width: $ancho-total-extras-2)
+          &.abierto
+            .extras-content
+              border-radius: 3px 3px 3px 3px
+              left: -65px
+              top: $offset-extras
+              transform-origin: top
+              transition: transform 0.6s ease-in-out
+          &.abierto ~ .item
+            transform: translateY(190px)
+      //DRONE--------------------------------------------------------------------------DRONE
+      &.drone
+        background:
+          image: url('../recursos/img/botones/drone.png')
+          size: contain
+          position: center center
+          repeat: no-repeat
+        &.abierto
+          .extras-content
+            border-radius: 20px 20px 20px 3px
+            transform-origin: left bottom
+            bottom: 50%
+            left: $offset-extras
+            transition: $burbuja-extras
+        @media(max-width: $ancho-total-extras-3)
+          &.abierto
+            .extras-content
+              border-radius: 20px 20px 3px 20px
+              transform-origin: right bottom
+              bottom: 50%
+              top: auto
+              left: auto
+              right: $offset-extras-estrecho
+        @media(max-width: $ancho-total-extras-2)
+          &.abierto
+            .extras-content
+              border-radius: 3px 3px 3px 3px
+              left: -65px
+              top: $offset-extras
+              transform-origin: top
+              transition: transform 0.6s ease-in-out
+          &.abierto ~ .item
+            transform: translateY(190px)
+      //POSTBODA-----------------------------------------------------------------------POSTBODA
+      &.postboda
+        background:
+          image: url('../recursos/img/botones/postboda.png')
+          size: contain
+          position: center center
+          repeat: no-repeat
+        &.abierto
+          .extras-content
+            border-radius: 20px 3px 20px 20px
+            transform-origin: right top
+            top: 50%
+            bottom: auto
+            right: $offset-extras
+            transition: $burbuja-extras
+        @media(max-width: 1470px)
+          &.abierto
+            .extras-content
+              border-radius: 20px 20px 20px 3px
+              transform-origin: left bottom
+              bottom: 50%
+              top: auto
+              left: $offset-extras
+              right: auto
+        @media(max-width: $ancho-total-extras-3)
+          &.abierto
+            .extras-content
+              border-radius: 20px 20px 3px 20px
+              transform-origin: right bottom
+              bottom: 50%
+              top: auto
+              right: $offset-extras-estrecho
+              left: auto
+        @media(max-width: $ancho-total-extras-2)
+          &.abierto
+            .extras-content
+              border-radius: 3px 3px 3px 3px
+              left: -65px
+              top: $offset-extras
+              transform-origin: top
+              transition: transform 0.6s ease-in-out
+          &.abierto ~ .item
+            transform: translateY(190px)
+      //CORTOMETRAJES--------------------------------------------------------------------CORTOMETRAJES
+      &.cortometrajes
+        background:
+          image: url('../recursos/img/botones/cortometrajes.png')
+          size: contain
+          position: center center
+          repeat: no-repeat
+        &.abierto
+          .extras-content
+            border-radius: 20px 20px 3px 20px
+            transform-origin: right bottom
+            bottom: 50%
+            right: $offset-extras
+            transition:  $burbuja-extras
+        @media(max-width: 1470px)
+          &.abierto
+            .extras-content
+              border-radius: 20px 20px 20px 3px
+              transform-origin: left bottom
+              bottom: 50%
+              top: auto
+              left: $offset-extras
+              right: auto
+        @media(max-width: $ancho-total-extras-3)
+          &.abierto
+            .extras-content
+              left: $offset-extras-estrecho
+        @media(max-width: $ancho-total-extras-2)
+          &.abierto
+            .extras-content
+              border-radius: 3px 3px 3px 3px
+              left: -65px
+              top: $offset-extras
+              transform-origin: top
+              transition: transform 0.6s ease-in-out
+          &.abierto ~ .item
+            transform: translateY(190px)
+
+      .extras-content
+        color: white
+        font-weight: bold
+        text-align: center
+        padding: 10px 20px
+        width: 350px
+        height: 150px
+        z-index: 10
+        background: $overlaydark2
+        position: absolute
+        box-shadow: $sombra1
+        border: 5px solid white
+        &.cerrado
+          -webkit-transform: scale(0)
+          -moz-transform: scale(0)
+          transform: scale(0)
+        &::before
+          color: white
+          position: absolute
+          right: 10px
+          top: 10px
+          cursor: pointer
+        @media(max-width: $ancho-total-extras-3)
+          width: 250px
+        @media(max-width: $ancho-total-extras-2)
+          h3
+            margin: 5px 0
+          p
+            margin: 5px 0
+          &.cerrado
+            -webkit-transform: scaleY(0)
+            -moz-transform: scaleY(0)
+            transform: scaleY(0)
+    @media(max-width: $ancho-total-extras-3)
+      width: $ancho-total-extras-2
+    @media(max-width: $ancho-total-extras-2)
+      width: $ancho-total-extras-1

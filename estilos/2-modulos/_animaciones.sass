@@ -1,0 +1,154 @@
+.botar
+  -webkit-animation: botar 0.5s ease-in-out 1
+  animation: botar 0.5s ease-in-out 1
+@-webkit-keyframes blop
+  0%
+    -webkit-transform: scale(0)
+    transform: scale(0)
+  25%
+    -webkit-transform: scale(0.6)
+    transform: scale(0.6)
+  50%
+    -webkit-transform: scale(0.8)
+    transform: scale(0.8)
+  75%
+    -webkit-transform: scale(1.1)
+    transform: scale(1.1)
+  90%
+    -webkit-transform: scale(0.9)
+    transform: scale(0.9)
+  100%
+    -webkit-transform: scale(1)
+    transform: scale(1)
+@-webkit-keyframes botar
+  0%
+    -webkit-transform: scale(1)
+    transform: scale(1)
+    box-shadow: $sombra1
+  25%
+    -webkit-transform: scale(1.05)
+    transform: scale(1.05)
+    box-shadow: 0px 0px 13px rgba(0,0,0,0.6)
+  50%
+    -webkit-transform: scale(1)
+    transform: scale(1)
+    box-shadow: $sombra1
+  60%
+    -webkit-transform: scale(1.02)
+    transform: scale(1.02)
+    box-shadow: 0px 0px 11px rgba(0,0,0,0.55)
+  70%
+    -webkit-transform: scale(1)
+    transform: scale(1)
+    box-shadow: $sombra1
+
+  100%
+    -webkit-transform: scale(1)
+    transform: scale(1)
+    box-shadow: $sombra1
+@-webkit-keyframes shakeDown
+  from,to
+    -webkit-transform: translateY(0)
+  10%,30%
+    -webkit-transform: translateY(10px)
+  20%, 40%
+    -webkit-transform: translateY(0px)
+@keyframes shakeDown
+  from,to
+    transform: translateY(0)
+  10%,30%
+    transform: translateY(10px)
+  20%, 40%
+    transform: translateY(0px)
+@-webkit-keyframes shakeUp
+  from,to
+    -webkit-transform: translateY(0)
+  10%,30%
+    -webkit-transform: translateY(-10px)
+  20%, 40%
+    -webkit-transform: translateY(0px)
+@keyframes shakeUp
+  from,to
+    transform: translateY(0)
+  10%,30%
+    transform: translateY(-10px)
+  20%, 40%
+    transform: translateY(0px)
+.zoomInUp
+  animation-name: zoomInUp
+  animation-duration: 1s
+.animated
+  animation-duration: 1s
+  animation-fill-mode: both
+
+@-webkit-keyframes zoomInUp
+  from
+    opacity: 0
+    -webkit-transform: scale3d(.1, .1, .1) translate3d(0, 1000px, 0)
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190)
+
+
+  60%
+    opacity: 1
+    -webkit-transform: scale3d(.475, .475, .475) translate3d(0, -60px, 0)
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1)
+@-moz-keyframes zoomInUp
+  from
+    opacity: 0
+    -moz-transform: scale3d(.1, .1, .1) translate3d(0, 1000px, 0)
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190)
+
+
+  60%
+    opacity: 1
+    -moz-transform: scale3d(.475, .475, .475) translate3d(0, -60px, 0)
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1)
+@keyframes zoomInUp
+  from
+    opacity: 0
+    transform: scale3d(.1, .1, .1) translate3d(0, 1000px, 0)
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190)
+
+
+  60%
+    opacity: 1
+    transform: scale3d(.475, .475, .475) translate3d(0, -60px, 0)
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1)
+.zoomIn
+  animation-name: zoomIn
+@-webkit-keyframes zoomIn
+  from
+    opacity: 0
+    -webkit-transform: scale3d(.3, .3, .3)
+
+
+  50%
+    opacity: 1
+@-moz-keyframes zoomIn
+  from
+    opacity: 0
+    -moz-transform: scale3d(.3, .3, .3)
+
+
+  50%
+    opacity: 1
+@keyframes zoomIn
+  from
+    opacity: 0
+    transform: scale3d(.3, .3, .3)
+
+
+  50%
+    opacity: 1
+
+.text-in-left
+  animation: text-in-left 1.5s ease-out forwards
+@keyframes text-in-left
+  from
+    transform: translate(20px)
+    opacity: 0
+  to
+    transform: translate(0)
+    opacity: 1
+//Transiciones basicas
+$all-slow: all 1s ease-in-out

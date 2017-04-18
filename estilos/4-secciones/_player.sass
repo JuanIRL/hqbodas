@@ -1,0 +1,143 @@
+section.player
+  width: 100%
+  padding: $header-height-des-padding 0 200px 0
+  .back
+    position: fixed
+    height: 40px
+    width: 40px
+    left: 30px
+    background:
+      image: url('../recursos/img/botones/back.png')
+      size: contain
+      position: center
+      repeat: no-repeat
+    @media(max-width:830px)
+      position: relative
+      margin-left: -40px
+      margin-bottom: 40px
+
+  .info
+    margin-right: 20px
+    max-width: 200px
+    h3
+      margin-top: 0
+      font-size: 1.5em
+  .iframe-wrapper
+    iframe
+      width: 960px
+      height: 540px
+      @media(max-width: 1360px)
+        width: 672px
+        height: 378px
+      @media(max-width:  690px)
+        width: 336px
+        height: 189px
+  .slideshow-wrapper
+    position: relative
+    width: 960px
+    height: 640px
+    border-radius:  3px
+    -webkit-transition: background 0.5s ease-in-out
+    -moz-transition: background 0.5s ease-in-out
+    transition: background 0.5s ease-in-out
+    background:
+      //image: url('http://fillmurray.com/540/960')
+      color: black
+      size:  cover
+      position:  center center
+      repeat: no-repeat
+    @media(max-width: 1360px)
+      width: 672px
+      height: 480px
+    @media(max-width:  690px)
+      width: 336px
+      height: 240px
+    @media(max-width:  340px)
+      width: 300px
+      height: 214px
+    .pinit
+      position: absolute
+      font-size: 3em
+      cursor: pointer
+      bottom: 10px
+      right: 10px
+      transition: opacity 0.3s ease-in-out
+      text-decoration: none
+    .controles
+      position: absolute
+      color: black
+      font-size:  1.4em
+      bottom: 0px
+      width:  100%
+      height: 35px
+      background: $overlay
+      &.outside
+        bottom: -35px
+        border-radius: 3px
+        background:  $overlaydark
+      .action
+        -webkit-transition: all 0.3s ease-in-out
+        -moz-transition: all 0.3s ease-in-out
+        transition: all 0.3s ease-in-out
+        cursor: pointer
+      .action:hover
+        color: white
+      .flechas
+        margin: 0 20px
+        .prev
+          margin-right:  10px
+        .next
+          margin-left: 10px
+      .cuenta
+        height: 100%
+      .fullscreen
+        margin: 0 20px
+    &.full
+      position: fixed
+      width: 100%
+      height: 100%
+      left: 0
+      top: 0
+      z-index: 10
+      background:
+        image: auto
+        size: contain
+      .pinit
+        top: auto
+        left: auto
+        right: 5px
+        bottom: 40px
+        &.escondido
+          opacity: 1
+
+@media(max-width: 1048px)
+  section.player
+    flex-direction:  column
+    align-items:  center
+    .info
+      min-width: 672px
+      margin: 0
+      text-align:  left
+    .slideshow-wrapper
+      .pinit
+        font-size: 1.5em
+        &.escondido
+          opacity: 1
+        &:hover
+          color: inherit
+      .controles
+        .cuenta
+          font-size: 0.8em
+@media(max-width: 690px)
+  section.player
+    padding: $header-height-des 0px 200px 0px
+    .info
+      min-width: 336px
+@media(max-width: 340px)
+  section.player
+    .info
+      min-width: 300px
+    .slideshow-wrapper
+      .controles
+        .action:hover
+          color: inherit

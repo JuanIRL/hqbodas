@@ -1,0 +1,26 @@
+.hosted-video
+  position: relative
+  z-index: 5
+  .controls-strip
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+    background: rgba(100,100,100,0.9)
+    height: 50px
+    z-index: 6
+    padding: 0 20px
+    .fa
+      font-size: 1.5em
+      cursor: pointer
+      &:hover
+        color: rgb(59, 153, 252)
+    progress
+      width: 80%
+      cursor: pointer
+    progress::-webkit-progress-bar
+      background-color: transparent
+    progress::-webkit-progress-value
+      background-color: rgb(59, 153, 252)
+    progress::-moz-progress-bar
+      background-color: rgb(59, 153, 252)

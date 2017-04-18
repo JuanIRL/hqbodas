@@ -1,0 +1,161 @@
+section.nosotros
+  padding: $header-height-des-padding 0px 100px 0px
+  .nosotros-wrapper
+    position: relative
+    .item
+      display: inline-block
+      float: left
+      margin: 30px 0
+      &.imagen
+        img
+          width: 450px
+          height: 300px
+      &.nosotros-content
+        position: relative
+        width: 400px
+        height:  300px
+        overflow-y:  hidden
+        margin-left: 50px
+        .content
+          height: 300px
+          position: absolute
+          display:  inline-block
+          float: left
+          transition: top 0.8s cubic-bezier(0.65, 0.05, 0.36, 1)
+          &:first-child
+            top: 0px
+          &:nth-child(2)
+            top: 300px
+          &:nth-child(3)
+            top: 600px
+          h1
+            margin-top:  0
+            margin-bottom: 10px
+            line-height: 1em
+          h3
+            margin-top: 0
+          p
+            font-size: 1.1em
+            line-height:  23px
+            margin: 5px 0
+      @media(max-width:  1000px)
+        &.imagen
+          img
+            width: 360px
+            height: 240px
+        &.nosotros-content
+          width: 320px
+          height: 240px
+          margin-left:  30px
+          .content
+            &:first-child
+              top: 0px
+            &:nth-child(2)
+              top: 240px
+            &:nth-child(3)
+              top: 480px
+            p
+              line-height: 18px
+              font-size: 0.9em
+              margin: 5px 0
+            h1
+              margin-bottom: 5px
+    .flecha
+      font-size:  3em
+      position: absolute
+      cursor: pointer
+      right: 0
+      &.subir
+        bottom: 0px
+        -webkit-animation: shakeDown 1.5s linear 0s infinite
+        -moz-animation: shakeDown 1.5s linear 0s infinite
+        animation: shakeDown 1.5s linear 0s infinite
+      &.bajar
+        top: 0px
+        -webkit-animation: shakeUp 1.5s linear 0s infinite
+        -moz-animation: shakeUp 1.5s linear 0s infinite
+        animation: shakeUp 1.5s linear 0s infinite
+        display: none
+    @media(max-width: 770px)
+      .item
+        display: block
+        float: none
+        &.imagen
+          img
+            width: 450px
+            height: 300px
+        &.nosotros-content
+          width: 400px
+          height: 300px
+          margin: 0
+          .content
+            height: 300px
+            &:first-child
+              top: 0px
+            &:nth-child(2)
+              top: 300px
+            &:nth-child(3)
+              top: 600px
+            p
+              line-height:  22px
+              font-size: 1.1em
+              margin-top: 10px
+      .flecha.bajar
+        top: 350px
+    @media(max-width: 550px)
+      .item
+        display: block
+        &.imagen
+          img
+            width: 360px
+            height: 240px
+        &.nosotros-content
+          width:  400px
+          height: auto
+          overflow-y:  visible
+          .content
+            position: relative
+            height: auto
+            margin: 20px 0
+            &:first-child
+              top: 0px
+            &:nth-child(2)
+              top: 0px
+            &:nth-child(3)
+              top: 0px
+      .flecha
+        display: none
+    @media(max-width:  420px)
+      .item
+        &.imagen
+          img
+            width: 300px
+            height: 200px
+        &.nosotros-content
+          width:  300px
+    @media(min-width:  1500px)
+      .item
+        &.imagen
+          img
+            width: 600px
+            height: 400px
+        &.nosotros-content
+          width: 500px
+          height: 400px
+          margin-left:  40px
+          .content
+            &:first-child
+              top: 0px
+            &:nth-child(2)
+              top: 400px
+            &:nth-child(3)
+              top: 800px
+            p
+              font-size: 1.4em
+              line-height:  28px
+              margin: 10px 0
+            h1
+              font-size: 1.6em
+              margin-bottom: 20px
+  @media(max-width:  548px)
+    padding: $header-height-des 0px 100px 0px

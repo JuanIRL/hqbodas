@@ -1,0 +1,7305 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "3B8A4870-1491-4B17-BEE9-B325B60E9831"
+		}
+	],
+"creatorBuild": "25479",
+"files": {
+	"\/album\/get-album.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/album\/get-album.php",
+		"oF": 0
+		},
+	"\/album\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/album\/index.php",
+		"oF": 0
+		},
+	"\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 9547,
+		"oA": 0,
+		"oAP": "\/apple-touch-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/bautizos\/get-fotos.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bautizos\/get-fotos.php",
+		"oF": 0
+		},
+	"\/bautizos\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bautizos\/index.php",
+		"oF": 0
+		},
+	"\/estilos\/1-base\/_font-awesome.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/1-base\/_font-awesome.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/1-base\/_fonts.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/1-base\/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/1-base\/_forms.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/1-base\/_forms.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/1-base\/_reset.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/1-base\/_reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/1-base\/_vars.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/1-base\/_vars.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/2-modulos\/_alertas.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/2-modulos\/_alertas.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/2-modulos\/_animaciones.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/2-modulos\/_animaciones.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/2-modulos\/_loader.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/2-modulos\/_loader.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/2-modulos\/_shade.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/2-modulos\/_shade.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/2-modulos\/hosted-video.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/2-modulos\/hosted-video.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/3-layouts\/_cols.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/3-layouts\/_cols.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/3-layouts\/_flex.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/3-layouts\/_flex.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/4-secciones\/_album.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/4-secciones\/_album.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/4-secciones\/_extras.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/4-secciones\/_extras.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/4-secciones\/_footer.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/4-secciones\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/4-secciones\/_galeria.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/4-secciones\/_galeria.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/4-secciones\/_header.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/4-secciones\/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/4-secciones\/_home.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/4-secciones\/_home.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/4-secciones\/_nosotros.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/4-secciones\/_nosotros.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/4-secciones\/_otros.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/4-secciones\/_otros.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/4-secciones\/_player.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/4-secciones\/_player.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/4-secciones\/_precios.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/4-secciones\/_precios.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/4-secciones\/_vosotros.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/estilos\/4-secciones\/_vosotros.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/main.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/estilos\/main-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/estilos\/main.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/estilos\/main.css.map",
+		"oF": 0
+		},
+	"\/estilos\/main.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/estilos\/main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/estilos\/test.css\/main.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/estilos\/test.css\/main-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/extras\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/extras\/index.php",
+		"oF": 0
+		},
+	"\/fonts\/ClearSans-Bold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/ClearSans-Bold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/ClearSans-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/ClearSans-Bold.ttf",
+		"oF": 0
+		},
+	"\/fonts\/ClearSans-BoldItalic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/ClearSans-BoldItalic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/ClearSans-BoldItalic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/ClearSans-BoldItalic.ttf",
+		"oF": 0
+		},
+	"\/fonts\/ClearSans-Italic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/ClearSans-Italic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/ClearSans-Italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/ClearSans-Italic.ttf",
+		"oF": 0
+		},
+	"\/fonts\/ClearSans-Light.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/ClearSans-Light.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/ClearSans-Light.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/ClearSans-Light.ttf",
+		"oF": 0
+		},
+	"\/fonts\/ClearSans-Medium.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/ClearSans-Medium.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/ClearSans-Medium.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/ClearSans-Medium.ttf",
+		"oF": 0
+		},
+	"\/fonts\/ClearSans-MediumItalic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/ClearSans-MediumItalic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/ClearSans-MediumItalic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/ClearSans-MediumItalic.ttf",
+		"oF": 0
+		},
+	"\/fonts\/ClearSans-Regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/ClearSans-Regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/ClearSans-Regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/ClearSans-Regular.ttf",
+		"oF": 0
+		},
+	"\/fonts\/ClearSans-Thin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/ClearSans-Thin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/ClearSans-Thin.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/ClearSans-Thin.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Corbert-Italic-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Corbert-Italic-webfont.eot",
+		"oF": 0
+		},
+	"\/fonts\/Corbert-Italic-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/Corbert-Italic-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/Corbert-Italic-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Corbert-Italic-webfont.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Corbert-Italic-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Corbert-Italic-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/Corbert-Italic-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Corbert-Italic-webfont.woff2",
+		"oF": 0
+		},
+	"\/fonts\/Corbert-Regular-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Corbert-Regular-webfont.eot",
+		"oF": 0
+		},
+	"\/fonts\/Corbert-Regular-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/Corbert-Regular-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/Corbert-Regular-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Corbert-Regular-webfont.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Corbert-Regular-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Corbert-Regular-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/Corbert-Regular-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Corbert-Regular-webfont.woff2",
+		"oF": 0
+		},
+	"\/fonts\/fontawesome-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/fontawesome-webfont.eot",
+		"oF": 0
+		},
+	"\/fonts\/fontawesome-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/fontawesome-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/fontawesome-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/fontawesome-webfont.ttf",
+		"oF": 0
+		},
+	"\/fonts\/fontawesome-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/fontawesome-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/fontawesome-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/fontawesome-webfont.woff2",
+		"oF": 0
+		},
+	"\/fonts\/FontAwesome.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/FontAwesome.otf",
+		"oF": 0
+		},
+	"\/footer.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/footer.php",
+		"oF": 0
+		},
+	"\/galeria\/get-bodas.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/galeria\/get-bodas.php",
+		"oF": 0
+		},
+	"\/galeria\/get-fotos.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/galeria\/get-fotos.php",
+		"oF": 0
+		},
+	"\/galeria\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/galeria\/index.php",
+		"oF": 0
+		},
+	"\/galeria\/player.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/galeria\/player.php",
+		"oF": 0
+		},
+	"\/get-fotos-movil.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/get-fotos-movil.php",
+		"oF": 0
+		},
+	"\/get-fotos.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/get-fotos.php",
+		"oF": 0
+		},
+	"\/header.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/header.php",
+		"oF": 0
+		},
+	"\/hqbodas_informacion y precios.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/hqbodas_informacion y precios.pdf",
+		"oF": 0
+		},
+	"\/icono\/android-chrome-144x144.png": {
+		"ft": 32768,
+		"iS": 7875,
+		"oA": 0,
+		"oAP": "\/icono\/android-chrome-144x144.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 10848,
+		"oA": 0,
+		"oAP": "\/icono\/android-chrome-192x192.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/android-chrome-36x36.png": {
+		"ft": 32768,
+		"iS": 2829,
+		"oA": 0,
+		"oAP": "\/icono\/android-chrome-36x36.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/android-chrome-48x48.png": {
+		"ft": 32768,
+		"iS": 3428,
+		"oA": 0,
+		"oAP": "\/icono\/android-chrome-48x48.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/android-chrome-72x72.png": {
+		"ft": 32768,
+		"iS": 4531,
+		"oA": 0,
+		"oAP": "\/icono\/android-chrome-72x72.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/android-chrome-96x96.png": {
+		"ft": 32768,
+		"iS": 5719,
+		"oA": 0,
+		"oAP": "\/icono\/android-chrome-96x96.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/apple-touch-icon-114x114.png": {
+		"ft": 32768,
+		"iS": 6055,
+		"oA": 0,
+		"oAP": "\/icono\/apple-touch-icon-114x114.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/apple-touch-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 6225,
+		"oA": 0,
+		"oAP": "\/icono\/apple-touch-icon-120x120.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/apple-touch-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 7775,
+		"oA": 0,
+		"oAP": "\/icono\/apple-touch-icon-144x144.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/apple-touch-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 8252,
+		"oA": 0,
+		"oAP": "\/icono\/apple-touch-icon-152x152.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/apple-touch-icon-180x180.png": {
+		"ft": 32768,
+		"iS": 9547,
+		"oA": 0,
+		"oAP": "\/icono\/apple-touch-icon-180x180.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/apple-touch-icon-57x57.png": {
+		"ft": 32768,
+		"iS": 3592,
+		"oA": 0,
+		"oAP": "\/icono\/apple-touch-icon-57x57.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/apple-touch-icon-60x60.png": {
+		"ft": 32768,
+		"iS": 3828,
+		"oA": 0,
+		"oAP": "\/icono\/apple-touch-icon-60x60.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/apple-touch-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 4380,
+		"oA": 0,
+		"oAP": "\/icono\/apple-touch-icon-72x72.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/apple-touch-icon-76x76.png": {
+		"ft": 32768,
+		"iS": 4399,
+		"oA": 0,
+		"oAP": "\/icono\/apple-touch-icon-76x76.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/apple-touch-icon-precomposed.png": {
+		"ft": 32768,
+		"iS": 10955,
+		"oA": 0,
+		"oAP": "\/icono\/apple-touch-icon-precomposed.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 9547,
+		"oA": 0,
+		"oAP": "\/icono\/apple-touch-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/browserconfig.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/icono\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/icono\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 1343,
+		"oA": 0,
+		"oAP": "\/icono\/favicon-16x16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/favicon-194x194.png": {
+		"ft": 32768,
+		"iS": 5908,
+		"oA": 0,
+		"oAP": "\/icono\/favicon-194x194.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1388,
+		"oA": 0,
+		"oAP": "\/icono\/favicon-32x32.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 3258,
+		"oA": 0,
+		"oAP": "\/icono\/favicon-96x96.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/icono\/favicon.ico",
+		"oF": 0
+		},
+	"\/icono\/favicons.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/icono\/favicons.zip",
+		"oF": 0
+		},
+	"\/icono\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/icono\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/icono\/mstile-144x144.png": {
+		"ft": 32768,
+		"iS": 3060,
+		"oA": 0,
+		"oAP": "\/icono\/mstile-144x144.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 3302,
+		"oA": 0,
+		"oAP": "\/icono\/mstile-150x150.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/mstile-310x150.png": {
+		"ft": 32768,
+		"iS": 3611,
+		"oA": 0,
+		"oAP": "\/icono\/mstile-310x150.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/mstile-310x310.png": {
+		"ft": 32768,
+		"iS": 8093,
+		"oA": 0,
+		"oAP": "\/icono\/mstile-310x310.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/icono\/mstile-70x70.png": {
+		"ft": 32768,
+		"iS": 2175,
+		"oA": 0,
+		"oAP": "\/icono\/mstile-70x70.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index.php",
+		"oF": 0
+		},
+	"\/nosotros\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/nosotros\/index.php",
+		"oF": 0
+		},
+	"\/otros.old\/get-fotos.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/otros.old\/get-fotos.php",
+		"oF": 0
+		},
+	"\/otros.old\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/otros.old\/index.php",
+		"oF": 0
+		},
+	"\/otros\/get-fotos.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/otros\/get-fotos.php",
+		"oF": 0
+		},
+	"\/otros\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/otros\/index.php",
+		"oF": 0
+		},
+	"\/precios\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/precios\/index.php",
+		"oF": 0
+		},
+	"\/recursos\/img\/album\/01.jpg": {
+		"ft": 16384,
+		"iS": 91120,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/album\/01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/album\/02.jpg": {
+		"ft": 16384,
+		"iS": 113776,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/album\/02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/album\/03.jpg": {
+		"ft": 16384,
+		"iS": 141955,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/album\/03.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/album\/04.jpg": {
+		"ft": 16384,
+		"iS": 166367,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/album\/04.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/album\/05.jpg": {
+		"ft": 16384,
+		"iS": 1468097,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/album\/05.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/recursos\/img\/album\/06.jpg": {
+		"ft": 16384,
+		"iS": 80880,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/album\/06.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/album\/07.jpg": {
+		"ft": 16384,
+		"iS": 82233,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/album\/07.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/album\/08.jpg": {
+		"ft": 16384,
+		"iS": 107232,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/album\/08.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/album\/09.jpg": {
+		"ft": 16384,
+		"iS": 85398,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/album\/09.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/album\/10.jpg": {
+		"ft": 16384,
+		"iS": 5460952,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/album\/10.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/recursos\/img\/bautizos\/2015_09_12_5344.jpg": {
+		"ft": 16384,
+		"iS": 3726654,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bautizos\/2015_09_12_5344.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bautizos\/2015_09_12_5370.jpg": {
+		"ft": 16384,
+		"iS": 8848682,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bautizos\/2015_09_12_5370.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bautizos\/2015_09_12_5452.jpg": {
+		"ft": 16384,
+		"iS": 5452457,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bautizos\/2015_09_12_5452.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bautizos\/2015_09_12_5734.jpg": {
+		"ft": 16384,
+		"iS": 2430748,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bautizos\/2015_09_12_5734.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bautizos\/2015_09_12_5940.jpg": {
+		"ft": 16384,
+		"iS": 2953563,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bautizos\/2015_09_12_5940.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bautizos\/min\/2015_09_12_5344.jpg": {
+		"ft": 16384,
+		"iS": 101561,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bautizos\/min\/2015_09_12_5344.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bautizos\/min\/2015_09_12_5370.jpg": {
+		"ft": 16384,
+		"iS": 138336,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bautizos\/min\/2015_09_12_5370.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bautizos\/min\/2015_09_12_5452.jpg": {
+		"ft": 16384,
+		"iS": 138800,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bautizos\/min\/2015_09_12_5452.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bautizos\/min\/2015_09_12_5734.jpg": {
+		"ft": 16384,
+		"iS": 80031,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bautizos\/min\/2015_09_12_5734.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bautizos\/min\/2015_09_12_5940.jpg": {
+		"ft": 16384,
+		"iS": 107732,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bautizos\/min\/2015_09_12_5940.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bautizos\/min\/Untitled_Panorama1.jpg": {
+		"ft": 16384,
+		"iS": 101307,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bautizos\/min\/Untitled_Panorama1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bautizos\/Untitled_Panorama1.jpg": {
+		"ft": 16384,
+		"iS": 2936041,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bautizos\/Untitled_Panorama1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/7A0A0041.jpg": {
+		"ft": 16384,
+		"iS": 180553,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/7A0A0041.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/7A0A0246.jpg": {
+		"ft": 16384,
+		"iS": 320055,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/7A0A0246.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/7A0A0254.jpg": {
+		"ft": 16384,
+		"iS": 137140,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/7A0A0254.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/7A0A0257.jpg": {
+		"ft": 16384,
+		"iS": 211543,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/7A0A0257.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/7A0A0270.jpg": {
+		"ft": 16384,
+		"iS": 133014,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/7A0A0270.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/7A0A0271.jpg": {
+		"ft": 16384,
+		"iS": 218924,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/7A0A0271.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/7A0A0379.jpg": {
+		"ft": 16384,
+		"iS": 295886,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/7A0A0379.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/7A0A0680.jpg": {
+		"ft": 16384,
+		"iS": 201405,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/7A0A0680.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/7A0A0755.jpg": {
+		"ft": 16384,
+		"iS": 117073,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/7A0A0755.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/7A0A0932.jpg": {
+		"ft": 16384,
+		"iS": 233041,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/7A0A0932.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/7A0A0941.jpg": {
+		"ft": 16384,
+		"iS": 241434,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/7A0A0941.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/7A0A0983.jpg": {
+		"ft": 16384,
+		"iS": 227824,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/7A0A0983.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/7A0A1014.jpg": {
+		"ft": 16384,
+		"iS": 158457,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/7A0A1014.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/7A0A1430.jpg": {
+		"ft": 16384,
+		"iS": 141812,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/7A0A1430.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/7A0A1646.jpg": {
+		"ft": 16384,
+		"iS": 228829,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/7A0A1646.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0041.jpg": {
+		"ft": 16384,
+		"iS": 341535,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0041.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0246.jpg": {
+		"ft": 16384,
+		"iS": 636060,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0246.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0254.jpg": {
+		"ft": 16384,
+		"iS": 242361,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0254.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0257.jpg": {
+		"ft": 16384,
+		"iS": 360336,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0257.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0270.jpg": {
+		"ft": 16384,
+		"iS": 237382,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0270.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0271.jpg": {
+		"ft": 16384,
+		"iS": 384465,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0271.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0379.jpg": {
+		"ft": 16384,
+		"iS": 593152,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0379.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0680.jpg": {
+		"ft": 16384,
+		"iS": 357162,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0680.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0755.jpg": {
+		"ft": 16384,
+		"iS": 245430,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0755.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0932.jpg": {
+		"ft": 16384,
+		"iS": 450564,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0932.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0941.jpg": {
+		"ft": 16384,
+		"iS": 448471,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0941.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0983.jpg": {
+		"ft": 16384,
+		"iS": 432668,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A0983.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A1014.jpg": {
+		"ft": 16384,
+		"iS": 287085,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A1014.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A1430.jpg": {
+		"ft": 16384,
+		"iS": 251394,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A1430.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A1646.jpg": {
+		"ft": 16384,
+		"iS": 438796,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/fullres\/7A0A1646.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/info.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/info-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/recursos\/img\/bodas\/anajavi\/miniaturas\/7A0A0257.jpg": {
+		"ft": 16384,
+		"iS": 102165,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/miniaturas\/7A0A0257.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/miniaturas\/7A0A0379.jpg": {
+		"ft": 16384,
+		"iS": 125687,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/miniaturas\/7A0A0379.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/miniaturas\/7A0A0680.jpg": {
+		"ft": 16384,
+		"iS": 93682,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/miniaturas\/7A0A0680.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/anajavi\/miniaturas\/7A0A0983.jpg": {
+		"ft": 16384,
+		"iS": 102366,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/anajavi\/miniaturas\/7A0A0983.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/2016_11_05_08356.jpg": {
+		"ft": 16384,
+		"iS": 113287,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/2016_11_05_08356.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/2016_11_05_08497.jpg": {
+		"ft": 16384,
+		"iS": 122650,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/2016_11_05_08497.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/2016_11_05_08606.jpg": {
+		"ft": 16384,
+		"iS": 150037,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/2016_11_05_08606.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/2016_11_05_08699.jpg": {
+		"ft": 16384,
+		"iS": 150032,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/2016_11_05_08699.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/2016_11_05_08762.jpg": {
+		"ft": 16384,
+		"iS": 128114,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/2016_11_05_08762.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/2016_11_05_08841.jpg": {
+		"ft": 16384,
+		"iS": 161330,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/2016_11_05_08841.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/2016_11_05_08989.jpg": {
+		"ft": 16384,
+		"iS": 171297,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/2016_11_05_08989.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/2016_11_05_08999.jpg": {
+		"ft": 16384,
+		"iS": 136915,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/2016_11_05_08999.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/2016_11_05_09187.jpg": {
+		"ft": 16384,
+		"iS": 163522,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/2016_11_05_09187.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/2016_11_05_09269.jpg": {
+		"ft": 16384,
+		"iS": 174961,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/2016_11_05_09269.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/2016_11_05_09375.jpg": {
+		"ft": 16384,
+		"iS": 196059,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/2016_11_05_09375.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/2016_11_05_09573.jpg": {
+		"ft": 16384,
+		"iS": 143830,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/2016_11_05_09573.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/2016_11_05_10285.jpg": {
+		"ft": 16384,
+		"iS": 130069,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/2016_11_05_10285.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/2016_11_05_10295.jpg": {
+		"ft": 16384,
+		"iS": 165820,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/2016_11_05_10295.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/2016_11_05_10597.jpg": {
+		"ft": 16384,
+		"iS": 177996,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/2016_11_05_10597.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_08356.jpg": {
+		"ft": 16384,
+		"iS": 202840,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_08356.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_08497.jpg": {
+		"ft": 16384,
+		"iS": 227732,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_08497.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_08606.jpg": {
+		"ft": 16384,
+		"iS": 284414,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_08606.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_08699.jpg": {
+		"ft": 16384,
+		"iS": 261494,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_08699.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_08762.jpg": {
+		"ft": 16384,
+		"iS": 227693,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_08762.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_08841.jpg": {
+		"ft": 16384,
+		"iS": 291193,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_08841.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_08989.jpg": {
+		"ft": 16384,
+		"iS": 298083,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_08989.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_08999.jpg": {
+		"ft": 16384,
+		"iS": 264903,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_08999.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_09187.jpg": {
+		"ft": 16384,
+		"iS": 280406,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_09187.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_09269.jpg": {
+		"ft": 16384,
+		"iS": 324062,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_09269.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_09375.jpg": {
+		"ft": 16384,
+		"iS": 370845,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_09375.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_09573.jpg": {
+		"ft": 16384,
+		"iS": 247260,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_09573.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_10285.jpg": {
+		"ft": 16384,
+		"iS": 239663,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_10285.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_10295.jpg": {
+		"ft": 16384,
+		"iS": 326526,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_10295.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_10597.jpg": {
+		"ft": 16384,
+		"iS": 361363,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/fullres\/2016_11_05_10597.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/info.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/info-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/miniaturas\/2016_11_05_08356.jpg": {
+		"ft": 16384,
+		"iS": 61936,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/miniaturas\/2016_11_05_08356.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/miniaturas\/2016_11_05_08606.jpg": {
+		"ft": 16384,
+		"iS": 78601,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/miniaturas\/2016_11_05_08606.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/miniaturas\/2016_11_05_08699.jpg": {
+		"ft": 16384,
+		"iS": 78662,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/miniaturas\/2016_11_05_08699.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/miniaturas\/2016_11_05_08841.jpg": {
+		"ft": 16384,
+		"iS": 85748,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/miniaturas\/2016_11_05_08841.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/miniaturas\/2016_11_05_09269.jpg": {
+		"ft": 16384,
+		"iS": 95735,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/miniaturas\/2016_11_05_09269.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/miniaturas\/2016_11_05_09375.jpg": {
+		"ft": 16384,
+		"iS": 96941,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/miniaturas\/2016_11_05_09375.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/andreamanu\/miniaturas\/2016_11_05_10597.jpg": {
+		"ft": 16384,
+		"iS": 85887,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/andreamanu\/miniaturas\/2016_11_05_10597.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/2016_10_15_04559.jpg": {
+		"ft": 16384,
+		"iS": 200392,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/2016_10_15_04559.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/2016_10_15_04615.jpg": {
+		"ft": 16384,
+		"iS": 147623,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/2016_10_15_04615.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/2016_10_15_04815.jpg": {
+		"ft": 16384,
+		"iS": 229208,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/2016_10_15_04815.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/2016_10_15_04838.jpg": {
+		"ft": 16384,
+		"iS": 119538,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/2016_10_15_04838.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/2016_10_15_04917.jpg": {
+		"ft": 16384,
+		"iS": 150934,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/2016_10_15_04917.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/2016_10_15_04922.jpg": {
+		"ft": 16384,
+		"iS": 173575,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/2016_10_15_04922.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/2016_10_15_04999.jpg": {
+		"ft": 16384,
+		"iS": 137345,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/2016_10_15_04999.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/2016_10_15_05112v2.jpg": {
+		"ft": 16384,
+		"iS": 175881,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/2016_10_15_05112v2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/2016_10_15_05206.jpg": {
+		"ft": 16384,
+		"iS": 199701,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/2016_10_15_05206.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/2016_10_15_05237.jpg": {
+		"ft": 16384,
+		"iS": 267375,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/2016_10_15_05237.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/2016_10_15_05338.jpg": {
+		"ft": 16384,
+		"iS": 204074,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/2016_10_15_05338.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/fullres\/2016_10_15_04559.jpg": {
+		"ft": 16384,
+		"iS": 404377,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/fullres\/2016_10_15_04559.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/fullres\/2016_10_15_04615.jpg": {
+		"ft": 16384,
+		"iS": 283583,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/fullres\/2016_10_15_04615.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/fullres\/2016_10_15_04815.jpg": {
+		"ft": 16384,
+		"iS": 417704,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/fullres\/2016_10_15_04815.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/fullres\/2016_10_15_04838.jpg": {
+		"ft": 16384,
+		"iS": 201317,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/fullres\/2016_10_15_04838.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/fullres\/2016_10_15_04917.jpg": {
+		"ft": 16384,
+		"iS": 259729,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/fullres\/2016_10_15_04917.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/fullres\/2016_10_15_04922.jpg": {
+		"ft": 16384,
+		"iS": 309615,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/fullres\/2016_10_15_04922.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/fullres\/2016_10_15_04999.jpg": {
+		"ft": 16384,
+		"iS": 250984,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/fullres\/2016_10_15_04999.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/fullres\/2016_10_15_05112v2.jpg": {
+		"ft": 16384,
+		"iS": 300733,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/fullres\/2016_10_15_05112v2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/fullres\/2016_10_15_05206.jpg": {
+		"ft": 16384,
+		"iS": 364177,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/fullres\/2016_10_15_05206.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/fullres\/2016_10_15_05237.jpg": {
+		"ft": 16384,
+		"iS": 471448,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/fullres\/2016_10_15_05237.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/fullres\/2016_10_15_05338.jpg": {
+		"ft": 16384,
+		"iS": 368346,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/fullres\/2016_10_15_05338.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/fullres\/IMG_1268.jpg": {
+		"ft": 16384,
+		"iS": 218636,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/fullres\/IMG_1268.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/fullres\/IMG_1451.jpg": {
+		"ft": 16384,
+		"iS": 443356,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/fullres\/IMG_1451.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/fullres\/IMG_2785.jpg": {
+		"ft": 16384,
+		"iS": 920364,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/fullres\/IMG_2785.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/fullres\/IMG_2806.jpg": {
+		"ft": 16384,
+		"iS": 1011906,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/fullres\/IMG_2806.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/IMG_1268.jpg": {
+		"ft": 16384,
+		"iS": 114000,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/IMG_1268.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/IMG_1451.jpg": {
+		"ft": 16384,
+		"iS": 243813,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/IMG_1451.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/IMG_2785.jpg": {
+		"ft": 16384,
+		"iS": 446031,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/IMG_2785.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/IMG_2806.jpg": {
+		"ft": 16384,
+		"iS": 518809,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/IMG_2806.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/info.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/info-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/miniaturas\/2016_10_15_04838.jpg": {
+		"ft": 16384,
+		"iS": 60214,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/miniaturas\/2016_10_15_04838.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/miniaturas\/2016_10_15_04922.jpg": {
+		"ft": 16384,
+		"iS": 89209,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/miniaturas\/2016_10_15_04922.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/miniaturas\/2016_10_15_05206.jpg": {
+		"ft": 16384,
+		"iS": 100261,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/miniaturas\/2016_10_15_05206.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/covajoaquin\/miniaturas\/IMG_2806.jpg": {
+		"ft": 16384,
+		"iS": 253030,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/covajoaquin\/miniaturas\/IMG_2806.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/1.jpg": {
+		"ft": 16384,
+		"iS": 246309,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/2.jpg": {
+		"ft": 16384,
+		"iS": 195677,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/200.jpg": {
+		"ft": 16384,
+		"iS": 270584,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/200.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/2016_07_16_0031.jpg": {
+		"ft": 16384,
+		"iS": 163198,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/2016_07_16_0031.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/2016_07_16_00311.jpg": {
+		"ft": 16384,
+		"iS": 189721,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/2016_07_16_00311.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/2016_07_16_00732.jpg": {
+		"ft": 16384,
+		"iS": 185833,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/2016_07_16_00732.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/2016_07_16_0096.jpg": {
+		"ft": 16384,
+		"iS": 198023,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/2016_07_16_0096.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/2016_07_16_0118.jpg": {
+		"ft": 16384,
+		"iS": 187881,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/2016_07_16_0118.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/2016_07_16_01181.jpg": {
+		"ft": 16384,
+		"iS": 271847,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/2016_07_16_01181.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/2016_07_16_0192.jpg": {
+		"ft": 16384,
+		"iS": 236362,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/2016_07_16_0192.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/2016_07_16_0266.jpg": {
+		"ft": 16384,
+		"iS": 203092,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/2016_07_16_0266.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/7A0A5517.jpg": {
+		"ft": 16384,
+		"iS": 256650,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/7A0A5517.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/7A0A5818.jpg": {
+		"ft": 16384,
+		"iS": 235342,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/7A0A5818.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/7A0A6004.jpg": {
+		"ft": 16384,
+		"iS": 231180,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/7A0A6004.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/7A0A6357.jpg": {
+		"ft": 16384,
+		"iS": 258429,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/7A0A6357.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/fullres\/1.jpg": {
+		"ft": 16384,
+		"iS": 503317,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/fullres\/1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/fullres\/2.jpg": {
+		"ft": 16384,
+		"iS": 328026,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/fullres\/2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/fullres\/200.jpg": {
+		"ft": 16384,
+		"iS": 505101,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/fullres\/200.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/fullres\/2016_07_16_0031.jpg": {
+		"ft": 16384,
+		"iS": 279712,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/fullres\/2016_07_16_0031.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/fullres\/2016_07_16_00311.jpg": {
+		"ft": 16384,
+		"iS": 332300,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/fullres\/2016_07_16_00311.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/fullres\/2016_07_16_00732.jpg": {
+		"ft": 16384,
+		"iS": 320035,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/fullres\/2016_07_16_00732.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/fullres\/2016_07_16_0096.jpg": {
+		"ft": 16384,
+		"iS": 337939,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/fullres\/2016_07_16_0096.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/fullres\/2016_07_16_0118.jpg": {
+		"ft": 16384,
+		"iS": 323571,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/fullres\/2016_07_16_0118.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/fullres\/2016_07_16_01181.jpg": {
+		"ft": 16384,
+		"iS": 485529,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/fullres\/2016_07_16_01181.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/fullres\/2016_07_16_0192.jpg": {
+		"ft": 16384,
+		"iS": 410668,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/fullres\/2016_07_16_0192.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/fullres\/2016_07_16_0266.jpg": {
+		"ft": 16384,
+		"iS": 387440,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/fullres\/2016_07_16_0266.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/fullres\/7A0A5517_1.jpg": {
+		"ft": 16384,
+		"iS": 468084,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/fullres\/7A0A5517_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/fullres\/7A0A5818.jpg": {
+		"ft": 16384,
+		"iS": 426596,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/fullres\/7A0A5818.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/fullres\/7A0A6004.jpg": {
+		"ft": 16384,
+		"iS": 411293,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/fullres\/7A0A6004.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/fullres\/7A0A6357_1.jpg": {
+		"ft": 16384,
+		"iS": 489150,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/fullres\/7A0A6357_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/info.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/info-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/miniaturas\/2016_07_16_00732.jpg": {
+		"ft": 16384,
+		"iS": 94783,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/miniaturas\/2016_07_16_00732.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/miniaturas\/2016_07_16_0118.jpg": {
+		"ft": 16384,
+		"iS": 91530,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/miniaturas\/2016_07_16_0118.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/miniaturas\/2016_07_16_0266.jpg": {
+		"ft": 16384,
+		"iS": 96993,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/miniaturas\/2016_07_16_0266.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/gemaraul\/miniaturas\/7A0A5818.jpg": {
+		"ft": 16384,
+		"iS": 111490,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/gemaraul\/miniaturas\/7A0A5818.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/2015_08_14_8997.jpg": {
+		"ft": 16384,
+		"iS": 148501,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/2015_08_14_8997.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9036.jpg": {
+		"ft": 16384,
+		"iS": 152887,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9036.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/2015_08_14_92742.jpg": {
+		"ft": 16384,
+		"iS": 156736,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/2015_08_14_92742.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9309.jpg": {
+		"ft": 16384,
+		"iS": 146697,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9309.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9381.jpg": {
+		"ft": 16384,
+		"iS": 163121,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9381.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9438.jpg": {
+		"ft": 16384,
+		"iS": 167666,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9438.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9461.jpg": {
+		"ft": 16384,
+		"iS": 132219,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9461.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9503.jpg": {
+		"ft": 16384,
+		"iS": 94178,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9503.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9541.jpg": {
+		"ft": 16384,
+		"iS": 165067,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9541.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9561.jpg": {
+		"ft": 16384,
+		"iS": 136557,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9561.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9627.jpg": {
+		"ft": 16384,
+		"iS": 142858,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9627.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9663.jpg": {
+		"ft": 16384,
+		"iS": 132085,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9663.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9999_43.jpg": {
+		"ft": 16384,
+		"iS": 156942,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9999_43.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9999_95.jpg": {
+		"ft": 16384,
+		"iS": 148298,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/2015_08_14_9999_95.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/2015_08_15_9999_23.jpg": {
+		"ft": 16384,
+		"iS": 140183,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/2015_08_15_9999_23.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_8997.jpg": {
+		"ft": 16384,
+		"iS": 201670,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_8997.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9036.jpg": {
+		"ft": 16384,
+		"iS": 268907,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9036.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_92742.jpg": {
+		"ft": 16384,
+		"iS": 351848,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_92742.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9309.jpg": {
+		"ft": 16384,
+		"iS": 236183,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9309.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9381.jpg": {
+		"ft": 16384,
+		"iS": 361215,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9381.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9438.jpg": {
+		"ft": 16384,
+		"iS": 225691,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9438.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9461.jpg": {
+		"ft": 16384,
+		"iS": 175090,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9461.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9503.jpg": {
+		"ft": 16384,
+		"iS": 150583,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9503.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9541.jpg": {
+		"ft": 16384,
+		"iS": 217011,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9541.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9561.jpg": {
+		"ft": 16384,
+		"iS": 296476,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9561.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9627.jpg": {
+		"ft": 16384,
+		"iS": 188794,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9627.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9663.jpg": {
+		"ft": 16384,
+		"iS": 273337,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9663.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9999_43.jpg": {
+		"ft": 16384,
+		"iS": 209187,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9999_43.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9999_95.jpg": {
+		"ft": 16384,
+		"iS": 329146,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_14_9999_95.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_15_9999_23.jpg": {
+		"ft": 16384,
+		"iS": 236497,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/fullres\/2015_08_15_9999_23.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/info.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/info-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/miniaturas\/2015_08_14_8997.jpg": {
+		"ft": 16384,
+		"iS": 77367,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/miniaturas\/2015_08_14_8997.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/miniaturas\/2015_08_14_9503.jpg": {
+		"ft": 16384,
+		"iS": 83307,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/miniaturas\/2015_08_14_9503.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/miniaturas\/2015_08_14_9541.jpg": {
+		"ft": 16384,
+		"iS": 80407,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/miniaturas\/2015_08_14_9541.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/juliachristian\/miniaturas\/2015_08_14_9999_43.jpg": {
+		"ft": 16384,
+		"iS": 81523,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/juliachristian\/miniaturas\/2015_08_14_9999_43.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_1757.jpg": {
+		"ft": 16384,
+		"iS": 120093,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_1757.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_1849_2.jpg": {
+		"ft": 16384,
+		"iS": 140239,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_1849_2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_1947.jpg": {
+		"ft": 16384,
+		"iS": 154793,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_1947.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_1985.jpg": {
+		"ft": 16384,
+		"iS": 153381,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_1985.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_2070.jpg": {
+		"ft": 16384,
+		"iS": 158778,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_2070.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_2092.jpg": {
+		"ft": 16384,
+		"iS": 138031,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_2092.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_2098.jpg": {
+		"ft": 16384,
+		"iS": 130133,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_2098.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_2151.jpg": {
+		"ft": 16384,
+		"iS": 157380,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_2151.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_2204.jpg": {
+		"ft": 16384,
+		"iS": 138322,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_2204.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_2213.jpg": {
+		"ft": 16384,
+		"iS": 163669,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_2213.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_2309_2.jpg": {
+		"ft": 16384,
+		"iS": 154009,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_2309_2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_2719.jpg": {
+		"ft": 16384,
+		"iS": 131926,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_04_2719.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_05_3016.jpg": {
+		"ft": 16384,
+		"iS": 128148,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_05_3016.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_05_3160.jpg": {
+		"ft": 16384,
+		"iS": 126255,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_05_3160.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_05_3499.jpg": {
+		"ft": 16384,
+		"iS": 148823,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/2015_09_05_3499.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_1757.jpg": {
+		"ft": 16384,
+		"iS": 132258,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_1757.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_1849_2.jpg": {
+		"ft": 16384,
+		"iS": 180336,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_1849_2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_1947.jpg": {
+		"ft": 16384,
+		"iS": 346207,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_1947.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_1985.jpg": {
+		"ft": 16384,
+		"iS": 398024,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_1985.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_2070.jpg": {
+		"ft": 16384,
+		"iS": 264269,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_2070.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_2092.jpg": {
+		"ft": 16384,
+		"iS": 231169,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_2092.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_2098.jpg": {
+		"ft": 16384,
+		"iS": 211267,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_2098.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_2151.jpg": {
+		"ft": 16384,
+		"iS": 411850,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_2151.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_2204.jpg": {
+		"ft": 16384,
+		"iS": 233452,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_2204.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_2213.jpg": {
+		"ft": 16384,
+		"iS": 594694,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_2213.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_2309_2.jpg": {
+		"ft": 16384,
+		"iS": 358823,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_2309_2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_2719.jpg": {
+		"ft": 16384,
+		"iS": 300029,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_04_2719.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_05_3016.jpg": {
+		"ft": 16384,
+		"iS": 287521,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_05_3016.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_05_3160.jpg": {
+		"ft": 16384,
+		"iS": 283986,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_05_3160.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_05_3499.jpg": {
+		"ft": 16384,
+		"iS": 254343,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/fullres\/2015_09_05_3499.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/info.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/info-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/miniaturas\/2015_09_04_1849_2.jpg": {
+		"ft": 16384,
+		"iS": 73256,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/miniaturas\/2015_09_04_1849_2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/miniaturas\/2015_09_04_2098.jpg": {
+		"ft": 16384,
+		"iS": 76079,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/miniaturas\/2015_09_04_2098.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/miniaturas\/2015_09_04_2204.jpg": {
+		"ft": 16384,
+		"iS": 80151,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/miniaturas\/2015_09_04_2204.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/leticiaguillermo\/miniaturas\/2015_09_04_2309_2.jpg": {
+		"ft": 16384,
+		"iS": 86543,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/leticiaguillermo\/miniaturas\/2015_09_04_2309_2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_5405.jpg": {
+		"ft": 16384,
+		"iS": 185785,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_5405.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_5572.jpg": {
+		"ft": 16384,
+		"iS": 143617,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_5572.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_5589.jpg": {
+		"ft": 16384,
+		"iS": 147173,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_5589.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_5603.jpg": {
+		"ft": 16384,
+		"iS": 134735,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_5603.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_5667.jpg": {
+		"ft": 16384,
+		"iS": 117654,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_5667.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_5709.jpg": {
+		"ft": 16384,
+		"iS": 172188,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_5709.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_5906.jpg": {
+		"ft": 16384,
+		"iS": 184574,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_5906.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_59062.jpg": {
+		"ft": 16384,
+		"iS": 232744,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_59062.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_5915.jpg": {
+		"ft": 16384,
+		"iS": 197567,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_5915.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_6057.jpg": {
+		"ft": 16384,
+		"iS": 319137,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_6057.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_6217.jpg": {
+		"ft": 16384,
+		"iS": 199644,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_6217.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_62172.jpg": {
+		"ft": 16384,
+		"iS": 74388,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_62172.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_6268.jpg": {
+		"ft": 16384,
+		"iS": 143907,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_6268.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_6350.jpg": {
+		"ft": 16384,
+		"iS": 151646,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/2016_06_25_6350.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/2016_06_26_6566.jpg": {
+		"ft": 16384,
+		"iS": 220559,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/2016_06_26_6566.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_5405.jpg": {
+		"ft": 16384,
+		"iS": 381157,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_5405.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_5572.jpg": {
+		"ft": 16384,
+		"iS": 268883,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_5572.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_5589.jpg": {
+		"ft": 16384,
+		"iS": 274475,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_5589.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_5603.jpg": {
+		"ft": 16384,
+		"iS": 266598,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_5603.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_5667.jpg": {
+		"ft": 16384,
+		"iS": 211844,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_5667.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_5709.jpg": {
+		"ft": 16384,
+		"iS": 311261,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_5709.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_5906.jpg": {
+		"ft": 16384,
+		"iS": 358700,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_5906.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_59062.jpg": {
+		"ft": 16384,
+		"iS": 489773,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_59062.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_5915.jpg": {
+		"ft": 16384,
+		"iS": 420493,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_5915.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_6057.jpg": {
+		"ft": 16384,
+		"iS": 609107,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_6057.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_6217.jpg": {
+		"ft": 16384,
+		"iS": 372622,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_6217.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_62172.jpg": {
+		"ft": 16384,
+		"iS": 146676,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_62172.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_6268.jpg": {
+		"ft": 16384,
+		"iS": 265417,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_6268.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_6350.jpg": {
+		"ft": 16384,
+		"iS": 286936,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_25_6350.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_26_6566.jpg": {
+		"ft": 16384,
+		"iS": 444317,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/fullres\/2016_06_26_6566.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/info.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/info-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/miniaturas\/2016_06_25_5405.jpg": {
+		"ft": 16384,
+		"iS": 79349,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/miniaturas\/2016_06_25_5405.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/miniaturas\/2016_06_25_5603.jpg": {
+		"ft": 16384,
+		"iS": 64674,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/miniaturas\/2016_06_25_5603.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/miniaturas\/2016_06_25_5709.jpg": {
+		"ft": 16384,
+		"iS": 70959,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/miniaturas\/2016_06_25_5709.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/miniaturas\/2016_06_25_59062.jpg": {
+		"ft": 16384,
+		"iS": 99287,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/miniaturas\/2016_06_25_59062.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lidiajesus\/miniaturas\/2016_06_25_6057.jpg": {
+		"ft": 16384,
+		"iS": 135876,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lidiajesus\/miniaturas\/2016_06_25_6057.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_0353.jpg": {
+		"ft": 16384,
+		"iS": 143277,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_0353.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_0406.jpg": {
+		"ft": 16384,
+		"iS": 146161,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_0406.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_0457.jpg": {
+		"ft": 16384,
+		"iS": 137454,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_0457.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_0653.jpg": {
+		"ft": 16384,
+		"iS": 139764,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_0653.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_0759.jpg": {
+		"ft": 16384,
+		"iS": 130720,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_0759.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_0986.jpg": {
+		"ft": 16384,
+		"iS": 139125,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_0986.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_0997.jpg": {
+		"ft": 16384,
+		"iS": 132421,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_0997.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_1544.jpg": {
+		"ft": 16384,
+		"iS": 136038,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_1544.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_1602.jpg": {
+		"ft": 16384,
+		"iS": 144450,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_1602.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_1722.jpg": {
+		"ft": 16384,
+		"iS": 173141,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_1722.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_2149.jpg": {
+		"ft": 16384,
+		"iS": 123744,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_2149.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_2166 2.jpg": {
+		"ft": 16384,
+		"iS": 140129,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_2166 2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_2270.jpg": {
+		"ft": 16384,
+		"iS": 137341,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_2270.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_2307.jpg": {
+		"ft": 16384,
+		"iS": 129844,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_2307.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_2411.jpg": {
+		"ft": 16384,
+		"iS": 155085,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/2015_05_16_2411.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_0353.jpg": {
+		"ft": 16384,
+		"iS": 238300,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_0353.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_0406.jpg": {
+		"ft": 16384,
+		"iS": 340457,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_0406.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_0457.jpg": {
+		"ft": 16384,
+		"iS": 377022,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_0457.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_0653.jpg": {
+		"ft": 16384,
+		"iS": 411330,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_0653.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_0759.jpg": {
+		"ft": 16384,
+		"iS": 286384,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_0759.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_0986.jpg": {
+		"ft": 16384,
+		"iS": 336959,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_0986.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_0997.jpg": {
+		"ft": 16384,
+		"iS": 233139,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_0997.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_1544.jpg": {
+		"ft": 16384,
+		"iS": 180603,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_1544.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_1602.jpg": {
+		"ft": 16384,
+		"iS": 413348,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_1602.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_1722.jpg": {
+		"ft": 16384,
+		"iS": 655780,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_1722.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_2149.jpg": {
+		"ft": 16384,
+		"iS": 85606,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_2149.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_2166 2.jpg": {
+		"ft": 16384,
+		"iS": 250336,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_2166 2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_2270.jpg": {
+		"ft": 16384,
+		"iS": 183990,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_2270.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_2307.jpg": {
+		"ft": 16384,
+		"iS": 310059,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_2307.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_2411.jpg": {
+		"ft": 16384,
+		"iS": 357722,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/fullres\/2015_05_16_2411.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/info.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/info-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/miniaturas\/2015_05_16_0353.jpg": {
+		"ft": 16384,
+		"iS": 82924,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/miniaturas\/2015_05_16_0353.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/miniaturas\/2015_05_16_0759.jpg": {
+		"ft": 16384,
+		"iS": 75794,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/miniaturas\/2015_05_16_0759.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/miniaturas\/2015_05_16_2149.jpg": {
+		"ft": 16384,
+		"iS": 65279,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/miniaturas\/2015_05_16_2149.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/lorenakiko\/miniaturas\/2015_05_16_2411.jpg": {
+		"ft": 16384,
+		"iS": 70322,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/lorenakiko\/miniaturas\/2015_05_16_2411.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8347.jpg": {
+		"ft": 16384,
+		"iS": 96357,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8347.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8391.jpg": {
+		"ft": 16384,
+		"iS": 79279,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8391.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8406.jpg": {
+		"ft": 16384,
+		"iS": 109849,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8406.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8458.jpg": {
+		"ft": 16384,
+		"iS": 210260,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8458.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8470.jpg": {
+		"ft": 16384,
+		"iS": 256671,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8470.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8474.jpg": {
+		"ft": 16384,
+		"iS": 204103,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8474.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8475.jpg": {
+		"ft": 16384,
+		"iS": 109964,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8475.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8477.jpg": {
+		"ft": 16384,
+		"iS": 223112,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8477.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8714.jpg": {
+		"ft": 16384,
+		"iS": 117561,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8714.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8719.jpg": {
+		"ft": 16384,
+		"iS": 231829,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8719.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8837.jpg": {
+		"ft": 16384,
+		"iS": 218677,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8837.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8936.jpg": {
+		"ft": 16384,
+		"iS": 148112,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_8936.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_9061.jpg": {
+		"ft": 16384,
+		"iS": 190610,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_9061.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_9074.jpg": {
+		"ft": 16384,
+		"iS": 118140,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_9074.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_9112.jpg": {
+		"ft": 16384,
+		"iS": 141155,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/2015_10_10_9112.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_8347.jpg": {
+		"ft": 16384,
+		"iS": 170332,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_8347.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_8391.jpg": {
+		"ft": 16384,
+		"iS": 148610,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_8391.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_8406.jpg": {
+		"ft": 16384,
+		"iS": 196818,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_8406.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_8458.jpg": {
+		"ft": 16384,
+		"iS": 384604,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_8458.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_8470.jpg": {
+		"ft": 16384,
+		"iS": 539642,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_8470.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_8474.jpg": {
+		"ft": 16384,
+		"iS": 387679,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_8474.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_8477.jpg": {
+		"ft": 16384,
+		"iS": 450766,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_8477.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_8714.jpg": {
+		"ft": 16384,
+		"iS": 212711,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_8714.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_8719.jpg": {
+		"ft": 16384,
+		"iS": 438436,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_8719.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_8837.jpg": {
+		"ft": 16384,
+		"iS": 400713,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_8837.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_8936.jpg": {
+		"ft": 16384,
+		"iS": 264865,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_8936.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_9061.jpg": {
+		"ft": 16384,
+		"iS": 343070,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_9061.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_9074.jpg": {
+		"ft": 16384,
+		"iS": 228421,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_9074.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_9112.jpg": {
+		"ft": 16384,
+		"iS": 253858,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/fullres\/2015_10_10_9112.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/fullres\/Portada.jpg": {
+		"ft": 16384,
+		"iS": 193501,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/fullres\/Portada.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/info.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/info-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/miniaturas\/2015_10_10_8347.jpg": {
+		"ft": 16384,
+		"iS": 51696,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/miniaturas\/2015_10_10_8347.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/miniaturas\/2015_10_10_8391.jpg": {
+		"ft": 16384,
+		"iS": 42288,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/miniaturas\/2015_10_10_8391.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/miniaturas\/2015_10_10_8714.jpg": {
+		"ft": 16384,
+		"iS": 60851,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/miniaturas\/2015_10_10_8714.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/patriciajavier\/miniaturas\/2015_10_10_9074.jpg": {
+		"ft": 16384,
+		"iS": 56795,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/patriciajavier\/miniaturas\/2015_10_10_9074.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/2015_09_19_6052.jpg": {
+		"ft": 16384,
+		"iS": 179619,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/2015_09_19_6052.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/2015_09_19_6131 v2.jpg": {
+		"ft": 16384,
+		"iS": 70346,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/2015_09_19_6131 v2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/2015_09_19_6299.jpg": {
+		"ft": 16384,
+		"iS": 145521,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/2015_09_19_6299.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/2015_09_19_6314.jpg": {
+		"ft": 16384,
+		"iS": 137029,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/2015_09_19_6314.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/2015_09_19_6462.jpg": {
+		"ft": 16384,
+		"iS": 256817,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/2015_09_19_6462.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/2015_09_19_6539.jpg": {
+		"ft": 16384,
+		"iS": 197984,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/2015_09_19_6539.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/2015_09_19_6674.jpg": {
+		"ft": 16384,
+		"iS": 129534,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/2015_09_19_6674.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/2015_09_19_6702.jpg": {
+		"ft": 16384,
+		"iS": 166191,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/2015_09_19_6702.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/2015_09_19_6775.jpg": {
+		"ft": 16384,
+		"iS": 273523,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/2015_09_19_6775.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/2015_09_19_6796.jpg": {
+		"ft": 16384,
+		"iS": 209873,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/2015_09_19_6796.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/2015_09_19_6880.jpg": {
+		"ft": 16384,
+		"iS": 311107,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/2015_09_19_6880.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/2015_09_20_7656.jpg": {
+		"ft": 16384,
+		"iS": 194441,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/2015_09_20_7656.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/2015_09_20_7884.jpg": {
+		"ft": 16384,
+		"iS": 145153,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/2015_09_20_7884.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/2015_09_20_8069.jpg": {
+		"ft": 16384,
+		"iS": 202667,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/2015_09_20_8069.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/2015_09_20_8258.jpg": {
+		"ft": 16384,
+		"iS": 191058,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/2015_09_20_8258.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_6052.jpg": {
+		"ft": 16384,
+		"iS": 278374,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_6052.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_6131 v2.jpg": {
+		"ft": 16384,
+		"iS": 120204,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_6131 v2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_6299.jpg": {
+		"ft": 16384,
+		"iS": 234987,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_6299.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_6314.jpg": {
+		"ft": 16384,
+		"iS": 221524,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_6314.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_6462.jpg": {
+		"ft": 16384,
+		"iS": 414675,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_6462.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_6539.jpg": {
+		"ft": 16384,
+		"iS": 330528,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_6539.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_6674.jpg": {
+		"ft": 16384,
+		"iS": 206168,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_6674.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_6702.jpg": {
+		"ft": 16384,
+		"iS": 265568,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_6702.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_6775.jpg": {
+		"ft": 16384,
+		"iS": 445886,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_6775.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_6796.jpg": {
+		"ft": 16384,
+		"iS": 385111,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_6796.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_6880.jpg": {
+		"ft": 16384,
+		"iS": 563502,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_6880.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_7133.jpg": {
+		"ft": 16384,
+		"iS": 367147,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_19_7133.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_20_7656.jpg": {
+		"ft": 16384,
+		"iS": 301359,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_20_7656.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_20_7884.jpg": {
+		"ft": 16384,
+		"iS": 233296,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_20_7884.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_20_8069.jpg": {
+		"ft": 16384,
+		"iS": 324734,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_20_8069.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_20_8258.jpg": {
+		"ft": 16384,
+		"iS": 305778,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/fullres\/2015_09_20_8258.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/info.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/info-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/miniaturas\/2015_09_19_6131 v2.jpg": {
+		"ft": 16384,
+		"iS": 37611,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/miniaturas\/2015_09_19_6131 v2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/miniaturas\/2015_09_19_6702.jpg": {
+		"ft": 16384,
+		"iS": 75097,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/miniaturas\/2015_09_19_6702.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/miniaturas\/2015_09_20_7884.jpg": {
+		"ft": 16384,
+		"iS": 68292,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/miniaturas\/2015_09_20_7884.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/bodas\/rociopablo\/miniaturas\/2015_09_20_8258.jpg": {
+		"ft": 16384,
+		"iS": 80543,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/bodas\/rociopablo\/miniaturas\/2015_09_20_8258.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/botones\/BACK.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recursos\/img\/botones\/BACK.ai",
+		"oF": 0
+		},
+	"\/recursos\/img\/botones\/back.png": {
+		"ft": 32768,
+		"iS": 1872,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/botones\/back.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/botones\/base.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recursos\/img\/botones\/base.ai",
+		"oF": 0
+		},
+	"\/recursos\/img\/botones\/base.png": {
+		"ft": 32768,
+		"iS": 17076,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/botones\/base.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/botones\/cortometrajes.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recursos\/img\/botones\/cortometrajes.ai",
+		"oF": 0
+		},
+	"\/recursos\/img\/botones\/cortometrajes.png": {
+		"ft": 32768,
+		"iS": 26881,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/botones\/cortometrajes.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/botones\/cortometrajes2.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recursos\/img\/botones\/cortometrajes2.ai",
+		"oF": 0
+		},
+	"\/recursos\/img\/botones\/drone.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recursos\/img\/botones\/drone.ai",
+		"oF": 0
+		},
+	"\/recursos\/img\/botones\/drone.png": {
+		"ft": 32768,
+		"iS": 75279,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/botones\/drone.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/botones\/drone2.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recursos\/img\/botones\/drone2.ai",
+		"oF": 0
+		},
+	"\/recursos\/img\/botones\/drone2.png": {
+		"ft": 32768,
+		"iS": 27244,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/botones\/drone2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/botones\/dronea.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recursos\/img\/botones\/dronea.ai",
+		"oF": 0
+		},
+	"\/recursos\/img\/botones\/dronea.png": {
+		"ft": 32768,
+		"iS": 44818,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/botones\/dronea.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/botones\/fotomaton.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recursos\/img\/botones\/fotomaton.ai",
+		"oF": 0
+		},
+	"\/recursos\/img\/botones\/fotomaton.png": {
+		"ft": 32768,
+		"iS": 58004,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/botones\/fotomaton.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/botones\/fotomaton2.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recursos\/img\/botones\/fotomaton2.ai",
+		"oF": 0
+		},
+	"\/recursos\/img\/botones\/fotomaton2.png": {
+		"ft": 32768,
+		"iS": 32556,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/botones\/fotomaton2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/botones\/play.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recursos\/img\/botones\/play.ai",
+		"oF": 0
+		},
+	"\/recursos\/img\/botones\/play.png": {
+		"ft": 32768,
+		"iS": 19201,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/botones\/play.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/botones\/postboda.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recursos\/img\/botones\/postboda.ai",
+		"oF": 0
+		},
+	"\/recursos\/img\/botones\/postboda.png": {
+		"ft": 32768,
+		"iS": 38856,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/botones\/postboda.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/botones\/postboda2.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recursos\/img\/botones\/postboda2.ai",
+		"oF": 0
+		},
+	"\/recursos\/img\/botones\/preboda.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recursos\/img\/botones\/preboda.ai",
+		"oF": 0
+		},
+	"\/recursos\/img\/botones\/preboda.png": {
+		"ft": 32768,
+		"iS": 100759,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/botones\/preboda.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/botones\/preboda2.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recursos\/img\/botones\/preboda2.ai",
+		"oF": 0
+		},
+	"\/recursos\/img\/botones\/videoclip.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recursos\/img\/botones\/videoclip.ai",
+		"oF": 0
+		},
+	"\/recursos\/img\/botones\/videoclip.png": {
+		"ft": 32768,
+		"iS": 89632,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/botones\/videoclip.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/botones\/videoclip2.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recursos\/img\/botones\/videoclip2.ai",
+		"oF": 0
+		},
+	"\/recursos\/img\/comuniones\/1.jpg": {
+		"ft": 16384,
+		"iS": 1574624,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/10.jpg": {
+		"ft": 16384,
+		"iS": 1483590,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/10.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/11.jpg": {
+		"ft": 16384,
+		"iS": 1053882,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/11.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/12.jpg": {
+		"ft": 16384,
+		"iS": 1259299,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/12.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/13.jpg": {
+		"ft": 16384,
+		"iS": 862938,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/13.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/14.jpg": {
+		"ft": 16384,
+		"iS": 1522858,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/14.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/15.jpg": {
+		"ft": 16384,
+		"iS": 1261902,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/15.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/2.jpg": {
+		"ft": 16384,
+		"iS": 962819,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/3.jpg": {
+		"ft": 16384,
+		"iS": 1417339,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/4.jpg": {
+		"ft": 16384,
+		"iS": 1536189,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/5.jpg": {
+		"ft": 16384,
+		"iS": 5022594,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/6.jpg": {
+		"ft": 16384,
+		"iS": 1349676,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/7.jpg": {
+		"ft": 16384,
+		"iS": 2072548,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/8.jpg": {
+		"ft": 16384,
+		"iS": 1154874,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/8.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/9.jpg": {
+		"ft": 16384,
+		"iS": 1612687,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/9.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/IMG_3973.jpg": {
+		"ft": 16384,
+		"iS": 8588613,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/IMG_3973.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/IMG_4102.jpg": {
+		"ft": 16384,
+		"iS": 11170194,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/IMG_4102.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/min\/1.jpg": {
+		"ft": 16384,
+		"iS": 124754,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/min\/1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/min\/10.jpg": {
+		"ft": 16384,
+		"iS": 128782,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/min\/10.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/min\/11.jpg": {
+		"ft": 16384,
+		"iS": 88383,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/min\/11.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/min\/12.jpg": {
+		"ft": 16384,
+		"iS": 113439,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/min\/12.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/min\/13.jpg": {
+		"ft": 16384,
+		"iS": 67420,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/min\/13.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/min\/14.jpg": {
+		"ft": 16384,
+		"iS": 137298,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/min\/14.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/min\/15.jpg": {
+		"ft": 16384,
+		"iS": 116948,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/min\/15.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/min\/2.jpg": {
+		"ft": 16384,
+		"iS": 74377,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/min\/2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/min\/3.jpg": {
+		"ft": 16384,
+		"iS": 126747,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/min\/3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/min\/4.jpg": {
+		"ft": 16384,
+		"iS": 146182,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/min\/4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/min\/5.jpg": {
+		"ft": 16384,
+		"iS": 131159,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/min\/5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/min\/6.jpg": {
+		"ft": 16384,
+		"iS": 106740,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/min\/6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/min\/7.jpg": {
+		"ft": 16384,
+		"iS": 166398,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/min\/7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/min\/8.jpg": {
+		"ft": 16384,
+		"iS": 98008,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/min\/8.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/min\/9.jpg": {
+		"ft": 16384,
+		"iS": 146868,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/min\/9.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/min\/IMG_3973.jpg": {
+		"ft": 16384,
+		"iS": 84201,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/min\/IMG_3973.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/comuniones\/min\/IMG_4102.jpg": {
+		"ft": 16384,
+		"iS": 56931,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/comuniones\/min\/IMG_4102.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/facebooklinkhome.jpg": {
+		"ft": 16384,
+		"iS": 126789,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/facebooklinkhome.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto01.jpg": {
+		"ft": 16384,
+		"iS": 269842,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto0102.jpg": {
+		"ft": 16384,
+		"iS": 309615,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto0102.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto02.jpg": {
+		"ft": 16384,
+		"iS": 222076,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto0201.jpg": {
+		"ft": 16384,
+		"iS": 364177,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto0201.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto021.jpg": {
+		"ft": 16384,
+		"iS": 190246,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto021.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto034.jpg": {
+		"ft": 16384,
+		"iS": 451537,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto034.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto04.jpg": {
+		"ft": 16384,
+		"iS": 162764,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto04.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto049.jpg": {
+		"ft": 16384,
+		"iS": 227732,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto049.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto05.jpg": {
+		"ft": 16384,
+		"iS": 476470,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto05.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto057.jpg": {
+		"ft": 16384,
+		"iS": 324062,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto057.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto06.jpg": {
+		"ft": 16384,
+		"iS": 248596,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto06.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto07.jpg": {
+		"ft": 16384,
+		"iS": 255114,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto07.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto09.jpg": {
+		"ft": 16384,
+		"iS": 332565,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto09.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto091.jpg": {
+		"ft": 16384,
+		"iS": 380477,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto091.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto092.jpg": {
+		"ft": 16384,
+		"iS": 256874,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto092.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto093.jpg": {
+		"ft": 16384,
+		"iS": 413944,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto093.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto094.jpg": {
+		"ft": 16384,
+		"iS": 338988,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto094.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto095.jpg": {
+		"ft": 16384,
+		"iS": 234987,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto095.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto097.jpg": {
+		"ft": 16384,
+		"iS": 275671,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto097.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto098.jpg": {
+		"ft": 16384,
+		"iS": 573268,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto098.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto099.jpg": {
+		"ft": 16384,
+		"iS": 233296,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto099.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto100.jpg": {
+		"ft": 16384,
+		"iS": 470842,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto100.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto110.jpg": {
+		"ft": 16384,
+		"iS": 353842,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto110.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto111.jpg": {
+		"ft": 16384,
+		"iS": 499753,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto111.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto112.jpg": {
+		"ft": 16384,
+		"iS": 236098,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto112.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto113.jpg": {
+		"ft": 16384,
+		"iS": 341505,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto113.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto114.jpg": {
+		"ft": 16384,
+		"iS": 299567,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto114.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto115.jpg": {
+		"ft": 16384,
+		"iS": 248310,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto115.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/foto118.jpg": {
+		"ft": 16384,
+		"iS": 285971,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/foto118.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/movil\/2015_05_16_0948.jpg": {
+		"ft": 16384,
+		"iS": 264098,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/movil\/2015_05_16_0948.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/movil\/2015_05_16_1404.jpg": {
+		"ft": 16384,
+		"iS": 282444,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/movil\/2015_05_16_1404.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/movil\/2015_05_16_1612.jpg": {
+		"ft": 16384,
+		"iS": 186782,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/movil\/2015_05_16_1612.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/movil\/2015_08_14_8967.jpg": {
+		"ft": 16384,
+		"iS": 171743,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/movil\/2015_08_14_8967.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/movil\/2015_08_14_9234.jpg": {
+		"ft": 16384,
+		"iS": 164456,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/movil\/2015_08_14_9234.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/movil\/2015_08_14_9425.jpg": {
+		"ft": 16384,
+		"iS": 152312,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/movil\/2015_08_14_9425.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/movil\/2015_08_14_9580.jpg": {
+		"ft": 16384,
+		"iS": 192218,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/movil\/2015_08_14_9580.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/movil\/2015_09_04_2050.jpg": {
+		"ft": 16384,
+		"iS": 176947,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/movil\/2015_09_04_2050.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/movil\/2015_09_05_3140.jpg": {
+		"ft": 16384,
+		"iS": 240801,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/movil\/2015_09_05_3140.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/movil\/2015_09_19_6129.JPG": {
+		"ft": 16384,
+		"iS": 96915,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/movil\/2015_09_19_6129.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/movil\/2015_09_19_6322.jpg": {
+		"ft": 16384,
+		"iS": 110373,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/movil\/2015_09_19_6322.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/movil\/2015_10_10_8270.jpg": {
+		"ft": 16384,
+		"iS": 181379,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/movil\/2015_10_10_8270.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/movil\/2015_10_10_8632.jpg": {
+		"ft": 16384,
+		"iS": 330816,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/movil\/2015_10_10_8632.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/movil\/2016_06_25_62172.jpg": {
+		"ft": 16384,
+		"iS": 114181,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/movil\/2016_06_25_62172.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/home\/movil\/home.jpg": {
+		"ft": 16384,
+		"iS": 118826,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/home\/movil\/home.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/loader\/loader.png": {
+		"ft": 32768,
+		"iS": 17518,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/loader\/loader.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/loader\/loader2.png": {
+		"ft": 32768,
+		"iS": 31086,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/loader\/loader2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/loader\/loader2grises.png": {
+		"ft": 32768,
+		"iS": 31067,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/loader\/loader2grises.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/loader\/loadergrises.png": {
+		"ft": 32768,
+		"iS": 16090,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/loader\/loadergrises.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/logo\/fondo hq 2.png": {
+		"ft": 32768,
+		"iS": 10112917,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/logo\/fondo hq 2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/logo\/fondo hq 2.psd": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recursos\/img\/logo\/fondo hq 2.psd",
+		"oF": 0
+		},
+	"\/recursos\/img\/logo\/fondo hq 3.png": {
+		"ft": 32768,
+		"iS": 708005,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/logo\/fondo hq 3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/logo\/fondo hq 4.png": {
+		"ft": 32768,
+		"iS": 3507995,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/logo\/fondo hq 4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/logo\/fondo hq 5.png": {
+		"ft": 32768,
+		"iS": 12830993,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/logo\/fondo hq 5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/logo\/fondo hq 6.png": {
+		"ft": 32768,
+		"iS": 2557873,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/logo\/fondo hq 6.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/logo\/fondo hq 7.png": {
+		"ft": 32768,
+		"iS": 1166542,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/logo\/fondo hq 7.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/logo\/fondo hq 7.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/recursos\/img\/logo\/fondo hq 7.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/recursos\/img\/logo\/hqbodaslogo.png": {
+		"ft": 32768,
+		"iS": 278266,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/logo\/hqbodaslogo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/logo\/hqbodaslogo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/recursos\/img\/logo\/hqbodaslogo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/recursos\/img\/logo\/hqbodaslogomin.png": {
+		"ft": 32768,
+		"iS": 28936,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/logo\/hqbodaslogomin.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/logo\/hqbodaslogonegro.png": {
+		"ft": 32768,
+		"iS": 24325,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/logo\/hqbodaslogonegro.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/logo\/hqbodaslogonegro.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/recursos\/img\/logo\/hqbodaslogonegro.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/recursos\/img\/logo\/hqbodaslogonegroresplandor.png": {
+		"ft": 32768,
+		"iS": 49924,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/logo\/hqbodaslogonegroresplandor.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/logo\/hqbodaslogonegroresplandor2.png": {
+		"ft": 32768,
+		"iS": 53612,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/logo\/hqbodaslogonegroresplandor2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/nosotros\/2015_05_16_1280.JPG": {
+		"ft": 16384,
+		"iS": 7901544,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/nosotros\/2015_05_16_1280.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/nosotros\/2015_05_16_1280_min.jpg": {
+		"ft": 16384,
+		"iS": 256422,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/nosotros\/2015_05_16_1280_min.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/pinterest\/pinit_fg_en_round_red_16.png": {
+		"ft": 32768,
+		"iS": 659,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/pinterest\/pinit_fg_en_round_red_16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/pinterest\/pinit_fg_en_round_red_32.png": {
+		"ft": 32768,
+		"iS": 1094,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/pinterest\/pinit_fg_en_round_red_32.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/video\/lorena_kiko.jpg": {
+		"ft": 16384,
+		"iS": 95020,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/video\/lorena_kiko.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/img\/video\/viva_novios.jpg": {
+		"ft": 16384,
+		"iS": 71759,
+		"oA": 0,
+		"oAP": "\/recursos\/img\/video\/viva_novios.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/js\/album-min.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/recursos\/js\/album-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/recursos\/js\/album.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/recursos\/js\/album-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/recursos\/js\/alert.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/recursos\/js\/alert-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/recursos\/js\/alertas.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/recursos\/js\/alertas-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/recursos\/js\/extras.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/recursos\/js\/extras-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/recursos\/js\/functions.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/recursos\/js\/functions-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/recursos\/js\/galeria-min.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/recursos\/js\/galeria-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/recursos\/js\/galeria.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/recursos\/js\/galeria-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/recursos\/js\/header.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/recursos\/js\/header-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/recursos\/js\/home-min.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/recursos\/js\/home-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/recursos\/js\/home.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/recursos\/js\/home-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/recursos\/js\/hosted-video.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/recursos\/js\/hosted-video-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/recursos\/js\/nosotros-min.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/recursos\/js\/nosotros-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/recursos\/js\/nosotros.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/recursos\/js\/nosotros-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/recursos\/js\/otros-min.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/recursos\/js\/otros-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/recursos\/js\/otros.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/recursos\/js\/otros-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/recursos\/js\/player.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/recursos\/js\/player-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/recursos\/js\/video-min.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/recursos\/js\/video-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/recursos\/js\/video.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/recursos\/js\/video-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/recursos\/sound\/Pop.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recursos\/sound\/Pop.mp3",
+		"oF": 0
+		},
+	"\/recursos\/video\/bautizo-nicholas-placeholder.jpg": {
+		"ft": 16384,
+		"iS": 122780,
+		"oA": 0,
+		"oAP": "\/recursos\/video\/bautizo-nicholas-placeholder.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/recursos\/video\/bautizo-nicholas.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recursos\/video\/bautizo-nicholas.mp4",
+		"oF": 0
+		},
+	"\/sitemap.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sitemap.xml",
+		"oF": 0
+		},
+	"\/video\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/video\/index.php",
+		"oF": 0
+		},
+	"\/video\/player.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/video\/player.php",
+		"oF": 0
+		},
+	"\/vosotros\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vosotros\/index.php",
+		"oF": 0
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"creationDate": 504703838,
+	"displayValue": "hqbodas",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "brackets_gray"
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 1,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigFileHandlingType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"async-generator-functions": {
+			"active": 0
+			},
+		"async-to-generator": {
+			"active": 0
+			},
+		"async-to-module-method": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"decorators-legacy": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"es2015-arrow-functions": {
+			"active": 0
+			},
+		"es2015-block-scoped-functions": {
+			"active": 0
+			},
+		"es2015-block-scoping": {
+			"active": 0
+			},
+		"es2015-classes": {
+			"active": 0
+			},
+		"es2015-computed-properties": {
+			"active": 0
+			},
+		"es2015-constants": {
+			"active": 0
+			},
+		"es2015-destructuring": {
+			"active": 0
+			},
+		"es2015-duplicate-keys": {
+			"active": 0
+			},
+		"es2015-for-of": {
+			"active": 0
+			},
+		"es2015-function-name": {
+			"active": 0
+			},
+		"es2015-literals": {
+			"active": 0
+			},
+		"es2015-modules-amd": {
+			"active": 0
+			},
+		"es2015-modules-commonjs": {
+			"active": 0
+			},
+		"es2015-modules-systemjs": {
+			"active": 0
+			},
+		"es2015-modules-umd": {
+			"active": 0
+			},
+		"es2015-object-super": {
+			"active": 0
+			},
+		"es2015-parameters": {
+			"active": 0
+			},
+		"es2015-shorthand-properties": {
+			"active": 0
+			},
+		"es2015-spread": {
+			"active": 0
+			},
+		"es2015-sticky-regex": {
+			"active": 0
+			},
+		"es2015-template-literals": {
+			"active": 0
+			},
+		"es2015-typeof-symbol": {
+			"active": 0
+			},
+		"es2015-unicode-regex": {
+			"active": 0
+			},
+		"es3-member-expression-literals": {
+			"active": 0
+			},
+		"es3-property-literals": {
+			"active": 0
+			},
+		"es5-property-mutators": {
+			"active": 0
+			},
+		"eval": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-extensions": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-comments": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"syntax-async-generators": {
+			"active": 0
+			},
+		"syntax-class-properties": {
+			"active": 0
+			},
+		"syntax-decorators": {
+			"active": 0
+			},
+		"syntax-do-expressions": {
+			"active": 0
+			},
+		"syntax-export-extensions": {
+			"active": 0
+			},
+		"syntax-flow": {
+			"active": 0
+			},
+		"syntax-function-bind": {
+			"active": 0
+			},
+		"syntax-function-sent": {
+			"active": 0
+			},
+		"syntax-jsx": {
+			"active": 0
+			},
+		"syntax-object-rest-spread": {
+			"active": 0
+			},
+		"undeclared-variables-check": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			}
+		},
+	"babelPresetType": 193,
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 0,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always'}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always', {'null': 'always'}"
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "'always', {'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-around-directive": {
+			"active": 0,
+			"optionString": "{'before': 'always', 'after': 'always'}"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-after-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"newline-before-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-catch-shadow": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 1,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "'FunctionExpression', 'WithStatement'"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': false}"
+			},
+		"no-self-compare": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-yield": {
+			"active": 0,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"outputStyle": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 0,
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsJSX": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "jsx",
+		"autoOutputPathReplace2": "js",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 1,
+		"disableJavascript": 0,
+		"ieCompatibility": 1,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"jsxMode": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 2,
+		"noImplicitAny": 0,
+		"preserveConstEnums": 0,
+		"removeComments": 0,
+		"suppressImplicitAnyIndexErrors": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"previewPathAddition": "",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"sourceFolderName": "source",
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "3"
+}

@@ -1,0 +1,42 @@
+
+
+.loader
+  width: 75px
+  height:  75px
+  background:
+    image: url('../recursos/img/loader/loader2grises.png')
+    size: contain
+    position: center center
+    repeat: no-repeat
+  opacity: 0.8
+  -webkit-transform-origin: center
+  -moz-transform-origin: center
+  -ms-transform-origin: center
+  transform-origin: center
+  -webkit-animation: loader-rotate 2s infinite linear
+  -mos-animation: loader-rotate 2s infinite linear
+  -ms-animation: loader-rotate 2s infinite linear
+  animation: loader-rotate 2s infinite linear
+
+  //Animacion giro
+
+@-webkit-keyframes loader-rotate
+  from
+    -webkit-transform: rotate(0)
+  to
+    -webkit-transform: rotate(360deg)
+@-moz-keyframes loader-rotate
+  from
+    -moz-transform: rotate(0)
+  to
+    -moz-transform: rotate(360deg)
+@-ms-keyframes loader-rotate
+  from
+    -ms-transform: rotate(0)
+  to
+    -ms-transform: rotate(360deg)
+@keyframes loader-rotate
+  from
+    transform: rotate(0)
+  to
+    transform: rotate(360deg)

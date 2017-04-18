@@ -1,0 +1,197 @@
+
+.header-wrapper
+  position: fixed
+  top: 0
+  width: 100%
+  height:  $header-height-des
+  background-color:  $overlay2
+  z-index: 20
+  //Animaciones
+  opacity: 0
+  -webkit-transform: translate(100vw,0)
+  -moz-transform: translate(100vw,0)
+  transform: translate(100vw,0)
+  -webkit-transition:  all 0.2s ease-in
+  -moz-transition:  all 0.2s ease-in
+  transition:  all 0.2s ease-in
+  @media(max-width: 660px)
+    height: 100%
+    background-color:  $overlay2
+    -webkit-transform: translate(0,-100vh)
+    -moz-transform: translate(0,-100vh)
+    transform: translate(0,-100vh)
+  &.is-open
+    -webkit-transform:  translate(0,0)
+    -moz-transform:  translate(0,0)
+    transform:  translate(0,0)
+    opacity: 1
+
+
+header
+  .logo
+    position: absolute
+    top: 8px
+    left: 20px
+    z-index:  30
+    -webkit-transition: opacity 0.2s ease-in-out
+    -moz-transition: opacity 0.2s ease-in-out
+    transition: opacity 0.2s ease-in-out
+    img
+      width: 204px
+      height: 70px
+    &.is-open
+      position: fixed
+      opacity: 1
+    @media(max-width: 950px)
+      top:  19px
+      img
+        width: 150px
+        height: 52px
+    @media(max-width:  660px)
+      left: 10px
+      top: 5px
+  nav
+    position: fixed
+    z-index:  29
+    font-weight: bold
+    font-size: 1.3em
+    width: 100%
+    padding-left:  150px
+    text-align: center
+    //32px con una sola linea de enlaces navegacion
+    top: 33px
+    left: 50%
+    -webkit-transform: translateX(100vw)
+    -moz-transform: translateX(100vw)
+    transform: translateX(100vw)
+    -webkit-transition:  transform 0.5s ease-out
+    -moz-transition:  transform 0.5s ease-out
+    transition:  transform 0.5s ease-out
+    ul
+      padding: 0
+      margin: 0
+      list-style:  none
+      li
+        display:  inline-block
+        padding-top: 2px
+        padding-bottom: 2px
+        line-height: 25px
+        margin-right: 10px
+        padding-right: 12px
+        max-width: 85px
+        border-right:  2px solid $texto1
+        vertical-align: middle
+        &.is-active
+          color:  $link2
+        &:last-child
+          border-right:  none
+    &.is-open
+        -webkit-transform: translateX(-50%)
+        -moz-transform: translateX(-50%)
+        transform: translateX(-50%)
+    @media(max-width: 1130px)
+      font-size: 1em
+      padding-left: 110px
+      top: 35px
+      ul
+        li
+          border-width:  1px
+          margin-right:  5px
+          padding-right: 6px
+          line-height: 20px
+    @media(max-width: 850px)
+      font-size: 0.8em
+      padding-left: 110px
+      top: 36px
+      ul
+        li
+          border-width:  1px
+          margin-right:  2px
+          padding-right: 2px
+          line-height: 15px
+    @media(max-width: 660px)
+      top:  90px
+      left: auto
+      padding: 0
+      margin: 0
+      font-size: 1.5em
+      -webkit-transform: translateY(-100vh)
+      -moz-transform: translateY(-100vh)
+      transform: translateY(-100vh)
+      ul
+        li
+          display: block
+          border: none
+          line-height: auto
+          max-width: none
+          margin-bottom:  20px
+      &.is-open
+        -webkit-transform: translateY(0)
+        -moz-transform: translateY(0)
+        transform: translateY(0)
+  .menu
+    position: fixed
+    top: 27px
+    right: 20px
+    z-index:  30
+    display:  -webkit-flex
+    display: -moz-flex
+    display: flex
+    width:  50px
+    height:  36px
+    cursor:  pointer
+    -webkit-flex-direction: column
+    -moz-flex-direction: column
+    flex-direction:  column
+    -webkit-justify-content:  space-between
+    -moz-justify-content:  space-between
+    justify-content:  space-between
+    -webkit-align-items:  center
+    -moz-align-items:  center
+    align-items:  center
+
+    //Animacion cruz menu
+
+    &.is-open
+      .raya:first-child
+        -webkit-transform-origin:  center
+        -moz-transform-origin:  center
+        transform-origin:  center
+        -webkit-transform:  rotate(45deg) translate(0,22px)
+        -moz-transform:  rotate(45deg) translate(0,22px)
+        transform:  rotate(45deg) translate(0,22px)
+      .raya:nth-child(2)
+        background-color:  transparent
+      .raya:last-child
+        -webkit-transform-origin:  center
+        -moz-transform-origin:  center
+        transform-origin: center
+        -webkit-transform:  rotate(-45deg) translate(0,-22px)
+        -moz-transform:  rotate(-45deg) translate(0,-22px)
+        transform:  rotate(-45deg) translate(0,-22px)
+
+    .raya
+      width:  50px
+      height:  4px
+      border-radius:  2px
+      background-color:  $colorlogo1
+      -webkit-transition:  all 0.3s ease-in-out
+      -moz-transition:  all 0.3s ease-in-out
+      transition:  all 0.3s ease-in-out
+    @media (max-width:  950px)
+      width: 30px
+      height: 22px
+      top: 34px
+      .raya
+        width: 30px
+      &.is-open
+        .raya:first-child
+          -webkit-transform:  rotate(45deg) translate(0,13px)
+          -moz-transform:  rotate(45deg) translate(0,13px)
+          transform: rotate(45deg) translate(0,13px)
+        .raya:last-child
+          -webkit-transform:  rotate(-45deg) translate(0,-13px)
+          -moz-transform:  rotate(-45deg) translate(0,-13px)
+          transform: rotate(-45deg) translate(0,-13px)
+    @media(max-width: 660px)
+      top: 22px

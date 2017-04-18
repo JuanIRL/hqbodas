@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAI;EACF,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;;;ACFX,GAAG;EACD,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,IAAI;;AAChB,MAAE;EACA,OAAO,EAAE,YAAY;EAErB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,MAAM;;AAClB,SAAE;EACA,OAAO,EAAE,YAAY",
+"sources": ["1-base/_reset.sass","4-secciones/_header.sass"],
+"names": [],
+"file": "main.css"
+}

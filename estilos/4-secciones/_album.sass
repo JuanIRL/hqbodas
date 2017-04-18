@@ -1,0 +1,50 @@
+section.album
+  width: 100%
+  min-height: 705px
+  padding: $header-height-des-padding 0px 200px 0px
+  text-align: center
+  font-size: 1.5em
+  h2
+    transition: $all-slow
+  h3
+    transition: $all-slow
+  p
+    max-width: 736px
+    margin: 0 auto
+    padding: 0 5px
+    transition: $all-slow
+    &.declarativo
+      font-style: italic
+      color: transparentize($texto1, 0.6)
+  .txt-invisible
+    opacity: 0
+  .album-wrapper
+    .foto
+      position:relative
+      margin: 5px 0px
+      width: 20%
+      transform: translateX(10px)
+      opacity: 0
+      transform-origin: center
+      transition: all 0.2s linear
+      perspective: 1000px
+      &.visible
+        transform: translateX(0)
+        opacity: 1
+      &:hover
+        z-index: 4
+        transform: scale(2)
+        box-shadow: 0px 0px 10px -5px grey
+      img
+        display: block
+        max-width: 100%
+  @media(max-width: 736px)
+    padding-top: $header-height-des
+    .album-wrapper
+      .foto
+        width: 33%
+  @media(max-width: 420px)
+    padding-top: $header-height-des
+    .album-wrapper
+      .foto
+        width: 50%

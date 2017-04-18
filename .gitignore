@@ -1,0 +1,8 @@
+#Big files#
+############
+*.psd
+*.mp4
+*.pdf
+#System files#
+###########
+.DS_store

@@ -1,0 +1,71 @@
+section.galeria
+  width: 100%
+  min-height: 2000px
+  padding: $header-height-des-padding 0px 100px 0px
+  a
+    margin: 0 20px
+    z-index: 1
+    @media(max-width: 420px)
+      margin: 0
+  .boda
+    display: inline-block
+    margin: 20px 0px
+    .muestra
+      position: relative
+      width: 400px
+      height: 300px
+      background:
+        size: cover
+      border: 4px solid white
+      box-shadow: $sombra1
+      border-radius: 3px
+      -webkit-transition: background 1.5s ease-in-out
+      -moz-transition: background 1.5s ease-in-out
+      transition: background 1.5s ease-in-out
+      @media(max-width: 420px)
+        width: 300px
+        height: 230px
+      &.video
+        width: 586px
+        height: 330px
+        cursor: pointer
+        &:hover::before
+          font-size: 3.4em
+        &:before
+          display: block
+          position: absolute
+          color: $link1
+          font-size: 3em
+          text-shadow: 0px 0px 5px $overlay2
+          top: 50%
+          left: 50%
+          -webkit-transform: translate(-50%,-50%)
+          -moz-transform: translate(-50%,-50%)
+          transform: translate(-50%,-50%)
+          transition: all 0.1s ease-in-out
+        @media(max-width: 1902px)
+          width: 480px
+          height: 277px
+        @media(max-width: 1584px)
+          width: 442px
+          height: 254px
+        @media(max-width: 736px)
+          width: 480px
+          height: 277px
+        @media(max-width: 548px)
+          width: 320px
+          height: 185px
+        @media(max-width: 368px)
+          width: 90vw
+          height: 52vw
+    .info
+      text-align: left
+      margin-top: 10px
+      h3
+        margin: 0
+      h5
+        margin: 0
+        margin-top: 5px
+        font-style: italic
+  @media(max-width: 736px)
+    padding: $header-height-des 0px 100px 0px

@@ -1,0 +1,121 @@
+section.otros
+  width: 100%
+  padding: $header-height-des-padding 0px 200px 0px
+  p
+    display: block
+    text-align: center
+    font-size: 1.8em
+    width: 50%
+    margin: 0 auto
+    margin-bottom: 60px
+    .text-in
+      opacity: 0
+      transform: translateX(20px)
+  .content
+    h2
+      margin-top: -10px
+      margin-bottom: 0
+      text-align: center
+      font-size: 50px
+      text-shadow: 0px 0px 10px rgba(0,0,0,0.5)
+    .carrusel-arrow
+      position: absolute
+      background: yellow
+      height: 100%
+      width: 40px
+      top: 0
+      visibility: hidden
+      &.left
+        left: 0
+        background: linear-gradient(to right, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%)
+      &.right
+        right: 0
+        background: linear-gradient(to left, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%)
+    .otros-content
+      position: relative
+      width: 100%
+      color: white
+      &.videos
+        margin-top: 80px
+        background: transparent
+        text-align: center
+        color: $texto1
+        h2
+          text-shadow: none
+        .videolink
+          display: block
+          width: 300px
+          height: 175px
+          background: rgba(0,0,0,0.6)
+        iframe.otros-video
+          width: 70vw
+          height: 41vw
+        .hosted-video
+          position: relative
+          width: 90%
+          margin: 0 auto
+          video
+            position: relative
+            max-width: 100%
+            box-shadow: 0px 10px 30px -10px black
+      &.fotos
+        height: 330px
+        padding: 50px 0px 20px 0
+        margin-bottom: 20px
+        box-shadow: inset 0px 0px 30px 0px black
+        &.comuniones
+          background:
+            color: desaturate(#03B3C2, 30)
+        &.bautizos
+          background:
+            color: desaturate(#C45582, 10)
+      .otros-wrapper
+        overflow-x: scroll
+        overflow-y: visible
+        .carrusel
+          display: block
+          width: 8000px
+          padding: 20px 0
+          .img
+            display: inline-block
+            width: 300px
+            background: white
+            vertical-align: middle
+            cursor: pointer
+            padding: 0 5px
+            background: transparent
+            img
+              display: block
+              max-width: 100%
+              box-shadow: 0px 10px 15px -10px black
+              border-radius: 3px
+  @media(max-width: 950px)
+    p
+      width: 80%
+    .content
+      h2
+        font-size: 1.7em
+      .otros-content
+        &.fotos
+          height: 250px
+        .otros-wrapper
+          .carrusel
+            .img
+              width: 250px
+  @media(max-width: 440px)
+    p
+      font-size: 1.2em
+    .content
+      h2
+        margin-top: 0px
+      .carrusel-arrow
+        width: 25px
+      .otros-content
+        &.fotos
+          height: 200px
+          padding: 20px 0px 10px 0px
+        .otros-wrapper
+          .carrusel
+            padding: 10px 0
+            .img
+              width: 190px
